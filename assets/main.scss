@@ -25,3 +25,11 @@ body {
 .bottomcap caption {
   caption-side: bottom;
 }
+
+table.tinypadding tr th, table.tinypadding tr td {
+  padding: 2px;
+}
+
+table.tinypadding tr th {
+  font-size: 10px;
+}
