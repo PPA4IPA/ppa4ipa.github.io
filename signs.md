@@ -27,6 +27,8 @@ PDF file with the first version of {{ site.longtitle }} is [here](/docs/sonina.a
 
 ### {{ site.title }} characters for pulmonic **CONSONANTS** of the IPA
 
+Tip: Use scrollbar under the table to see last columns.
+
 <div style="overflow-x: scroll;">
 <table class="tinypadding hcenter bottomcap" width="2000">
 <caption>{{ site.title }} <strong>characters</strong> for PULMONIC CONSONANTS of the International Phonetic Alphabet</caption>
