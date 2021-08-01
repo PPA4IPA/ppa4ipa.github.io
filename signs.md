@@ -33,7 +33,7 @@ Tip: Use scrollbar under the table to see last columns.
 <table class="tinypadding hcenter bottomcap" width="2000">
 <caption>{{ site.title }} <strong>characters</strong> for PULMONIC CONSONANTS of the International Phonetic Alphabet</caption>
 <tr>
-<th></th><th></th>
+<th>N</th><th></th>
 <th width="150">&nbsp;&nbsp;&nbsp;&nbsp;Bilabial&nbsp;&nbsp;&nbsp;&nbsp;</th>
 <th width="150">&nbsp;Labiodental&nbsp;</th>
 <th width="150">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dental&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
