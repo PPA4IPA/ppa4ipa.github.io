@@ -4,34 +4,34 @@ title: PPA signs
 order: 3
 ---
 
-## Reproduction of {{ site.title }}
+## Reproduction of <cite>{{ site.title }}</cite>
 
-The {{ site.longtitle }} as a Work, and each of the {{ site.longtitle }} characters 
+The <cite>{{ site.longtitle }}</cite> as a Work, and each of the <cite>{{ site.longtitle }}</cite> characters 
 and symbols as individual Works, are copyright © 2013 by Snejina Sonina. As of June 2013, they are made 
-freely available under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0) licence. 
+freely available under a <cite>Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0) licence</cite>. 
 This licence allows non-commercial use, as long as attribution is given and the reproduction is under 
 the same licence. This licence does not authorize you to alter, transform, or build upon this work. 
 See <https://creativecommons.org/licenses/by-nc-nd/3.0/legalcode> for the complete terms.
 
 Attribution:
 
-> {{ site.longtitle }}, <{{ site.url }}>, is made available under a 
-> Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported licence in respect of 
-> the {{ site.longtitle }} as a Work, and in respect of each character and symbol 
-> as a distinct individual Work. Copyright © 2013 Snejina Sonina. Extended licences 
+> <cite>{{ site.longtitle }}</cite>, <{{ site.url }}>, is made available under a 
+> <cite>Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported licence</cite> in respect of 
+> the <cite>{{ site.longtitle }}</cite> as a Work, and in respect of each character and symbol 
+> as a distinct individual Work. Copyright © 2013 <cite>Snejina Sonina</cite>. Extended licences 
 > available as expressly authorized in writing by Snejina Sonina, <{{ site.email }}>
 
-<h2 id="{{ site.title }}-characters"> {{ site.title }} Characters</h2>
+<h2 id="{{ site.title }}-characters"> <cite>{{ site.title }}</cite> Characters</h2>
 
-PDF file with the first version of {{ site.longtitle }} is [here](/docs/sonina.artalph.pdf).
+PDF file with the first version of <cite>{{ site.longtitle }}</cite> is [here](/docs/sonina.artalph.pdf).
 
-### {{ site.title }} characters for pulmonic **CONSONANTS** of the IPA
+### <cite>{{ site.title }}</cite> characters for pulmonic **CONSONANTS** of the <cite>IPA</cite>
 
 Tip: Use scrollbar under the table to see last columns.
 
 <div style="overflow-x: scroll;">
 <table class="tinypadding hcenter bottomcap" width="2000">
-<caption>{{ site.title }} <strong>characters</strong> for PULMONIC CONSONANTS of the International Phonetic Alphabet</caption>
+<caption><cite>{{ site.title }}</cite> <strong>characters</strong> for PULMONIC CONSONANTS of the <cite>International Phonetic Alphabet</cite></caption>
 <tr>
 <th>N</th><th></th>
 <th width="150">&nbsp;&nbsp;&nbsp;&nbsp;Bilabial&nbsp;&nbsp;&nbsp;&nbsp;</th>
@@ -89,10 +89,10 @@ Tip: Use scrollbar under the table to see last columns.
 </table>
 </div>
   
-### {{ site.title }} characters for **VOWELS** of the IPA
+### <cite>{{ site.title }}</cite> characters for **VOWELS** of the <cite>IPA</cite>
 
 <table class="hcenter bottomcap">
-<caption>{{ site.title }} <strong>characters</strong> for VOWELS of the IPA (the corresponding IPA signs are located under the characters)</caption>
+<caption><cite>{{ site.title }}</cite> <strong>characters</strong> for VOWELS of the <cite>IPA</cite> (the corresponding <cite>IPA</cite> signs are located under the characters)</caption>
 <tr>
   <th></th><th width="300">Front</th><th width="250">Central</th><th width="250">Back</th>
 </tr><tr>
@@ -153,18 +153,18 @@ Tip: Use scrollbar under the table to see last columns.
 </tr>
 </table>
 
-Sound recordings on the [IPA website][1]
+Sound recordings on the [<cite>IPA</cite> website][1]
 
 [1]: https://www.internationalphoneticassociation.org/content/sound-recordings "Sound recordings on the IPA website"
 
-<h2 id="{{ site.title }}-inventory"> {{ site.title }} Inventory</h2>
+<h2 id="{{ site.title }}-inventory"> <cite>{{ site.title }}</cite> Inventory</h2>
 
 Under development.
 
-### Additional symbols for phonological features (**DIACRITICS** in IPA)
+### Additional symbols for phonological features (**DIACRITICS** in <cite>IPA</cite>)
 
 <table class="hcenter bottomcap">
-  <caption>{{ site.title }} inventory: additional <strong>symbols</strong> for phonological features (DIACRITICS in IPA)</caption>
+  <caption><cite>{{ site.title }}</cite> inventory: additional <strong>symbols</strong> for phonological features (DIACRITICS in <cite>IPA</cite>)</caption>
   <thead>
   <tr>
     <th>N</th>
@@ -210,7 +210,7 @@ Under development.
 ### Symbols for **MODES OF ARTICULATION** for consonants
 
 <table class="hcenter bottomcap">
-    <caption>{{ site.title }} inventory: <strong>symbols</strong> for MODES of articulation for CONSONANTS</caption>
+    <caption><cite>{{ site.title }}</cite> inventory: <strong>symbols</strong> for MODES of articulation for CONSONANTS</caption>
     <thead>
       <tr>
         <th>N</th>
