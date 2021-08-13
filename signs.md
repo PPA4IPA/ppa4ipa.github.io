@@ -7,7 +7,7 @@ order: 3
 ## Reproduction of <cite>{{ site.title }}</cite>
 
 The <cite>{{ site.longtitle }}</cite> as a Work, and each of the <cite>{{ site.longtitle }}</cite> characters 
-and symbols as individual Works, are copyright © 2013 by Snejina Sonina. As of June 2013, they are made 
+and symbols as individual Works, are copyright © 2013 by <cite>Snejina Sonina</cite>. As of June 2013, they are made 
 freely available under a <cite>Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0) licence</cite>. 
 This licence allows non-commercial use, as long as attribution is given and the reproduction is under 
 the same licence. This licence does not authorize you to alter, transform, or build upon this work. 
