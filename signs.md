@@ -7,8 +7,8 @@ order: 3
 ## Reproduction of <cite>{{ site.title }}</cite>
 
 The <cite>{{ site.longtitle }}</cite> as a Work, and each of the <cite>{{ site.longtitle }}</cite> characters 
-and symbols as individual Works, are copyright © 2013 by <cite>Snejina Sonina</cite>. As of June 2013, they are made 
-freely available under a <cite>Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0) licence</cite>. 
+and symbols as individual Works, are copyright © 2013 by <cite>{{ site.author }}</cite>. As of June 2013, they are made 
+freely available under a <cite>Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported (CC BY-NC-ND 3.0) licence</cite>. 
 This licence allows non-commercial use, as long as attribution is given and the reproduction is under 
 the same licence. This licence does not authorize you to alter, transform, or build upon this work. 
 See <https://creativecommons.org/licenses/by-nc-nd/3.0/legalcode> for the complete terms.
@@ -16,10 +16,10 @@ See <https://creativecommons.org/licenses/by-nc-nd/3.0/legalcode> for the comple
 Attribution:
 
 > <cite>{{ site.longtitle }}</cite>, <{{ site.url }}>, is made available under a 
-> <cite>Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported licence</cite> in respect of 
+> <cite>Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported licence</cite> in respect of 
 > the <cite>{{ site.longtitle }}</cite> as a Work, and in respect of each character and symbol 
-> as a distinct individual Work. Copyright © 2013 <cite>Snejina Sonina</cite>. Extended licences 
-> available as expressly authorized in writing by Snejina Sonina, <{{ site.email }}>
+> as a distinct individual Work. Copyright © 2013 <cite>{{ site.author }}</cite>. Extended licences 
+> available as expressly authorized in writing by {{ site.author }}, <{{ site.email }}>
 
 <h2 id="{{ site.title }}-characters"> <cite>{{ site.title }}</cite> Characters</h2>
 
