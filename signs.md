@@ -27,13 +27,13 @@ PDF file with the first version of <cite>{{ site.longtitle }}</cite> is [here](/
 
 ### <cite>{{ site.title }}</cite> characters for pulmonic **CONSONANTS** of the <cite>IPA</cite>
 
-Tip: Use scrollbar under the table to see last columns.
+<!-- Tip: Use scrollbar under the table to see last columns. -->
 
 <div style="overflow-x: scroll;">
 <table class="tinypadding hcenter bottomcap" width="2000">
 <caption><cite>{{ site.title }}</cite> <strong>characters</strong> for PULMONIC CONSONANTS of the <cite>International Phonetic Alphabet</cite></caption>
 <tr>
-<th>N</th><th></th>
+<th>&nbsp;N&nbsp;</th><th></th>
 <th width="150">&nbsp;&nbsp;&nbsp;&nbsp;Bilabial&nbsp;&nbsp;&nbsp;&nbsp;</th>
 <th width="150">&nbsp;Labiodental&nbsp;</th>
 <th width="150">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dental&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
