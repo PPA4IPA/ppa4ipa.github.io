@@ -94,7 +94,7 @@ Tip: Use scrollbar under the table to see last columns.
 <table class="hcenter bottomcap">
 <caption><cite>{{ site.title }}</cite> <strong>characters</strong> for VOWELS of the <cite>IPA</cite> (the corresponding <cite>IPA</cite> signs are located under the characters)</caption>
 <tr>
-  <th width="100"></th><th width="300">Front</th><th width="250">Central</th><th width="250">Back</th>
+  <th width="80"></th><th width="300">Front</th><th width="250">Central</th><th width="250">Back</th>
 </tr><tr>
   <th>Close</th><td>{% include figure.html url="signs/vowels/i.svg" title="i" %}
   {% include figure.html url="signs/vowels/i-◻.svg" title="i-◻" %}<br>
