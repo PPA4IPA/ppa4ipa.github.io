@@ -16,7 +16,7 @@ See <https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode> for the comple
 Attribution:
 
 > <cite>{{ site.longtitle }}</cite>, <{{ site.url }}>, is made available under a 
-> <cite>Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported licence</cite> in respect of 
+> <cite>Creative Commons Attribution-NonCommercial-NoDerivs 4.0 Unported licence</cite> in respect of 
 > the <cite>{{ site.longtitle }}</cite> as a Work, and in respect of each character and symbol 
 > as a distinct individual Work. Copyright © 2013 <cite>{{ site.author }}</cite>. Extended licences 
 > available as expressly authorized in writing by {{ site.author }}, <{{ site.email }}>
