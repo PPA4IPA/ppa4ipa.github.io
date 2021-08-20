@@ -4,4 +4,4 @@
 [![Theme minima](https://img.shields.io/badge/theme-minima-blue.svg)](https://github.com/jekyll/minima)
 [![Powered by Liquid Templates](https://img.shields.io/badge/liquid-4.0.3-blue.svg)](https://shopify.github.io/liquid/)
 [![Powered by SASS CSS pre-processor](https://img.shields.io/badge/sass-3.7.4-blue.svg)](https://sass-lang.com)
-[![CC BY NC ND 4.0 License](https://mirrors.creativecommons.org/presskit/buttons/80x15/svg/by-nc-nd.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+[![CC BY NC ND 4.0 License](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-blue)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
