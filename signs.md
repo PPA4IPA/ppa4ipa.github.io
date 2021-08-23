@@ -1,6 +1,6 @@
 ---
 layout: page
-# title: PPA signs
+title: PPA signs
 order: 3
 ---
 # PPA signs \([Consonants](#{{ site.title }}-consonants) and [Vowels](#{{ site.title }}-vowels)\)
