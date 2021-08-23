@@ -1,8 +1,9 @@
 ---
 layout: page
-title: PPA signs
+# title: PPA signs
 order: 3
 ---
+# PPA signs \([Consonants](#{{ site.title }}-consonants) and [Vowels](#{{ site.title }}-vowels)\)
 
 ## Reproduction of <cite>{{ site.title }}</cite>
 
@@ -25,7 +26,7 @@ Attribution:
 
 PDF file with the first version of <cite>{{ site.longtitle }}</cite> is [here](/docs/sonina.artalph.pdf).
 
-### <cite>{{ site.title }}</cite> characters for pulmonic **CONSONANTS** of the <cite>IPA</cite>
+<h3 id="{{ site.title }}-consonants"><cite>{{ site.title }}</cite> characters for pulmonic **CONSONANTS** of the <cite>IPA</cite></h3>
 
 <!-- Tip: Use scrollbar under the table to see last columns. -->
 
@@ -88,8 +89,8 @@ PDF file with the first version of <cite>{{ site.longtitle }}</cite> is [here](/
 </tr>
 </table>
 </div>
-  
-### <cite>{{ site.title }}</cite> characters for **VOWELS** of the <cite>IPA</cite>
+
+<h3 id="{{ site.title }}-vowels"><cite>{{ site.title }}</cite> characters for **VOWELS** of the <cite>IPA</cite></h3>
 
 <table class="hcenter bottomcap">
 <caption><cite>{{ site.title }}</cite> <strong>characters</strong> for VOWELS of the <cite>IPA</cite> (the corresponding <cite>IPA</cite> signs are located under the characters)</caption>
