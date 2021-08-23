@@ -1,7 +1,7 @@
 ---
 layout: page
 title: PPA signs
-h1: "PPA signs (<a href="#PPA-consonants">Consonants</a> and <a href="#PPA-vowels">Vowels</a>)"
+h1: 'PPA signs (<a href="#PPA-consonants">Consonants</a> and <a href="#PPA-vowels">Vowels</a>)'
 order: 3
 ---
 
