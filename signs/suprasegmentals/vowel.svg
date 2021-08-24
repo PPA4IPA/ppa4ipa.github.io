@@ -1,7 +1,7 @@
 ---
 layout: compress
 title: Vowel
-styles: ["grid", "gridCont", "text", "teeth", "copyright", "shape"]
+pagestyles: ["grid", "gridCont", "text", "teeth", "copyright", "shape"]
 ---
 {%- assign basic = site.data.basic -%}
 {%- assign gridX = basic.grid.x.vowel -%}
