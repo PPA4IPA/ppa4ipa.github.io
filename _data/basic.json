@@ -23,12 +23,12 @@
     }
   },
   "teeth": {
-    "consonant": "<g class=\"teeth\"><polygon points=\"50,22.5 50,67 51,67 57,22.5\"/><polygon points=\"50,127.5 50,83 51,83 57,127.5\"/></g>",
-    "vowel": "<g class=\"teeth\"><polygon points=\"58,25 58,66 59,66 65,25\"/><polygon points=\"58,131 58,90 59,90 65,131\"/></g>",
-    "nasalVowel": "<g class=\"teeth\"><polygon points=\"56,32.05 56,71.05 57,71.05 63,32.05\"/><polygon points=\"56,138.05 56,99.05 57,99.05 63,138.05\"/></g>",
-    "fadedConsonant": "<g class=\"fadedTeeth\"><polygon points=\"50,22.5 50,67 51,67 57,22.5\"/><polygon points=\"50,127.5 50,83 51,83 57,127.5\"/></g>",
-    "fadedVowel": "<g class=\"fadedTeeth\"><polygon points=\"58,25 58,66 59,66 65,25\"/><polygon points=\"58,131 58,90 59,90 65,131\"/></g>",
-    "fadedNasalVowel": "<g class=\"fadedTeeth\"><polygon points=\"56,32.05 56,73.05 57,73.05 63,32.05\"/><polygon points=\"56,138.05 56,97.05 57,97.05 63,138.05\"/></g>"
+    "consonant": "<path class=\"teeth\" d=\"M57,22.5h-7v44.5h1m0,16h-1v44.5h7\"/>",
+    "vowel": "<path class=\"teeth\" d=\"M65,25h-7v41h1m0,24h-1v41h7\"/>",
+    "nasalVowel": "<path class=\"teeth\" d=\"M63,32.05h-7v39h1m0,28h-1v39h7\"/>",
+    "fadedConsonant": "<path class=\"fadedTeeth\" d=\"M57,22.5h-7v44.5h1m0,16h-1v44.5h7\"/>",
+    "fadedVowel": "<path class=\"fadedTeeth\" d=\"M65,25h-7v41h1m0,24h-1v41h7\"/>",
+    "fadedNasalVowel": "<path class=\"fadedTeeth\" d=\"M63,32.05h-7v39h1m0,28h-1v39h7\"/>",
   },
   "alveola": {
     "default": "<path transform=\"translate(54.5 27.8) scale(0.33)\" d=\"M64,0C48,4 46,16 32,16S16,4 0,0z\" class=\"teeth\"/><path transform=\"translate(160.5 27.8) scale(0.4)\" d=\"M32,0C20,0 26,32 16,32S12,0 0,0z\" class=\"teeth\"/>",
