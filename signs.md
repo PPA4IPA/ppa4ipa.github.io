@@ -286,12 +286,12 @@ Under development.
 
 <h3 id="{{ site.title }}-suprasegmetals">Symbols for <strong>SUPRASEGMETALS</strong></h3>
 
-<table class="hcenter bottomcap">
+<table class="hcenter bottomcap suprasegmetals">
     <caption><cite>{{ site.title }}</cite> inventory: <strong>symbols</strong> for SUPRASEGMETALS</caption>
     <thead>
       <tr>
         <th>N</th>
-        <th width="360">Symbols</th>
+        <th width="380">Symbols</th>
         <th>Meaning</th>
         <th>Pictographic metaphor</th>
       </tr>
