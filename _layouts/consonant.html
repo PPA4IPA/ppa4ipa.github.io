@@ -39,7 +39,7 @@ styles: ["grid", "gridCont", "activeFilled", "text", "teeth", "copyright", "shap
   {%- endif %}
   {% include mode_symbol.html -%}
 </defs>
-<path d="M{{ gridX }},{{ gridY }}h100m-100,25h100m-100,25h100m-100,25h100m-100,25h100m-100,-100v100m25,-100v100m25,-100v100m25,-100v100m25,-100v100" class="grid"/>
+<path d="M{{ gridX }},{{ gridY }}{{ basic.grid.path }}" class="grid"/>
 {{ basic.teeth.consonant }}
 {{ alveola }}
 <path d="{{ shape }}" class="shape"/>
