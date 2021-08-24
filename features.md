@@ -36,7 +36,7 @@ features necessary for the description and articulation of the represented sound
 whereas the use of conventional pictures requires several representations to describe one sound, not to mention 
 the many phonetic characteristics that cannot be captured by a realistic picture.
 
-## A novel approach to suprasegmental marks (see&nbsp;SUPRASEGMETALS&nbsp;in&nbsp;[<cite>{{ site.title }}</cite>&nbsp;Inventory][1])
+## A novel approach to suprasegmental marks (see&nbsp;[SUPRASEGMETALS][4]&nbsp;in&nbsp;[<cite>{{ site.title }}</cite>&nbsp;Inventory][1])
 
 To mark stress or length, <cite>{{ site.title }}</cite> does not require the addition of extra symbols. Instead, the pictographic nature 
 of this new alphabet’s signs allows for the changing of a character’s form itself in a logical and visually 
@@ -47,3 +47,4 @@ on the other hand, are linked with a horizontal line at the bottom to emphasize 
 [1]: /signs#{{ site.title }}-inventory "{{ site.title }} Inventory"
 [2]: /signs#{{ site.title }}-characters "{{ site.title }} Characters"
 [3]: https://www.internationalphoneticassociation.org/content/ipa-chart "The International Phonetic Alphabet and the IPA Chart"
+[4]: /signs#{{ site.title }}-suprasegmetals "{{ site.title }} Suprasegmetals"
