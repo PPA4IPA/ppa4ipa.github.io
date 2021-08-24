@@ -284,7 +284,7 @@ Under development.
     </tbody>
   </table>
 
-<h3 id="{{ site.title }}-suprasegmentals">Symbols for <strong>SUPRASEGMETALS</strong></h3>
+<h3 id="{{ site.title }}-suprasegmetals">Symbols for <strong>SUPRASEGMETALS</strong></h3>
 
 <table class="hcenter bottomcap">
     <caption><cite>{{ site.title }}</cite> inventory: <strong>symbols</strong> for SUPRASEGMETALS</caption>
