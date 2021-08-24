@@ -1,6 +1,6 @@
 ---
 layout: compress
-title: Shaded Consonant
+title: Faded Consonant
 styles: ["grid", "gridCont", "text", "fadedTeeth", "copyright", "fadedShape"]
 ---
 {%- assign basic = site.data.basic -%}
@@ -16,7 +16,7 @@ styles: ["grid", "gridCont", "text", "fadedTeeth", "copyright", "fadedShape"]
 {%- endfor %}
 </style>
 <path d="M{{ gridX }},{{ gridY }}{{ basic.grid.path }}" class="grid"/>
-{{ basic.teeth.consonant }}
+{{ basic.teeth.fadedConsonant }}
 <path d="{{ basic.shape.consonant }}" class="fadedShape"/>
 {% include copyright.html -%}
 </svg>
