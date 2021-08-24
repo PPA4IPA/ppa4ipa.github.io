@@ -1,7 +1,7 @@
 ---
 layout: compress
 title: Vowel
-pagestyles: ["grid", "gridCont", "text", "teeth", "copyright", "shape"]
+styles: ["grid", "gridCont", "text", "teeth", "copyright", "shape"]
 ---
 {%- assign basic = site.data.basic -%}
 {%- assign gridX = basic.grid.x.vowel -%}
@@ -10,7 +10,11 @@ pagestyles: ["grid", "gridCont", "text", "teeth", "copyright", "shape"]
 <title>{{ title }}</title>
 {% include creator.html -%}
 {% include license.html -%}
-{% include style.html -%}
+<style type="text/css">
+{%- for st in styles %}
+  {{ site.data.style[st] }}
+{%- endfor %}
+</style>
 <path d="M{{ gridX }},{{ gridY }}{{ basic.grid.path }}" class="grid"/>
 {{ basic.teeth.vowel }}
 <path d="{{ basic.shape.vowel }}" class="shape"/>
