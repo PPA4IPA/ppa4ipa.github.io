@@ -2,12 +2,11 @@
 layout: compress
 title: Consonant
 styles: ["grid", "gridCont", "text", "teeth", "copyright", "shape"]
-opening_par: ' preserveAspectRatio="none"'
 ---
 {%- assign basic = site.data.basic -%}
 {%- assign gridX = basic.grid.x.consonant -%}
 {%- assign gridY = basic.grid.y.consonant -%}
-{% include opening.html par=page.opening_par -%}
+{% include opening.html par='preserveAspectRatio="none"' -%}
 <title>{{ title }}</title>
 {% include creator.html -%}
 {% include license.html -%}
