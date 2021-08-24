@@ -7,7 +7,7 @@ styles: ["mode", "out"]
 <title>{{ mode.title }}</title>
 {% include creator.html -%}
 {% include license.html -%}
-{%- assign pagestyles = mode.styles %}
+{%- assign mode_styles = mode.styles %}
 {% include style.html -%}
 <symbol id="{{ mode.title }}_mode" viewBox="-21,-21,242,62" width="100%" height="100%" class="mode">
   <polygon points="0,20 100,-80 200,20 100,120"/>
