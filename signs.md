@@ -283,3 +283,75 @@ Under development.
       </tr>
     </tbody>
   </table>
+
+<h3 id="{{ site.title }}-suprasegmentals"> <cite>{{ site.title }}</cite> inventory: <strong>symbols</strong> for SUPRASEGMETALS</h3>
+
+<table class="hcenter bottomcap">
+    <caption><cite>{{ site.title }}</cite> inventory: <strong>symbols</strong> for SUPRASEGMETALS</caption>
+    <thead>
+      <tr>
+        <th>N</th>
+        <th>Symbols</th>
+        <th>Meaning</th>
+        <th>Pictographic metaphor</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>{% include figure.html url="signs/suprasegmentals/faded-consonant.svg" title="Faded Consonant" class="suprasegmental" caption=false %}{% include figure.html url="signs/suprasegmentals/vowel.svg" title="Vowel" class="suprasegmental" height="120" width="120" caption=false %}{% include figure.html url="signs/suprasegmentals/faded-consonant.svg" title="Faded Consonant" class="suprasegmental" caption=false %}{% include figure.html url="signs/suprasegmentals/faded-vowel.svg" title="Faded Vowel" class="suprasegmental" caption=false %}</td>
+        <td>Primary stress</td>
+        <td>The biggest = most stressed</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>{% include figure.html url="signs/suprasegmentals/faded-consonant.svg" title="Faded Consonant" class="suprasegmental" caption=false %}{% include figure.html url="signs/suprasegmentals/vowel.svg" title="Vowel" class="suprasegmental" height="100" width="100" caption=false %}{% include figure.html url="signs/suprasegmentals/faded-consonant.svg" title="Faded Consonant" class="suprasegmental" caption=false %}{% include figure.html url="signs/suprasegmentals/faded-vowel.svg" title="Faded Vowel" class="suprasegmental" caption=false %}</td>
+        <td>Secondary stress</td>
+        <td>Second biggest = less stressed</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>{% include figure.html url="signs/suprasegmentals/faded-consonant.svg" title="Faded Consonant" class="suprasegmental" caption=false %}{% include figure.html url="signs/suprasegmentals/vowel.svg" title="Vowel" class="suprasegmental" width="140" caption=false %}{% include figure.html url="signs/suprasegmentals/faded-consonant.svg" title="Faded Consonant" class="suprasegmental" caption=false %}{% include figure.html url="signs/suprasegmentals/faded-vowel.svg" title="Faded Vowel" class="suprasegmental" caption=false %}</td>
+        <td>Long</td>
+        <td>Length of the symbol = length of the sound</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>{% include figure.html url="signs/suprasegmentals/faded-consonant.svg" title="Faded Consonant" class="suprasegmental" caption=false %}{% include figure.html url="signs/suprasegmentals/vowel.svg" title="Vowel" class="suprasegmental" width="50" caption=false %}{% include figure.html url="signs/suprasegmentals/faded-consonant.svg" title="Faded Consonant" class="suprasegmental" caption=false %}{% include figure.html url="signs/suprasegmentals/faded-vowel.svg" title="Faded Vowel" class="suprasegmental" caption=false %}</td>
+        <td>Half-long</td>
+        <td>Length of the symbol = length of the sound</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>{% include figure.html url="signs/suprasegmentals/faded-consonant.svg" title="Faded Consonant" class="suprasegmental" caption=false %}{% include figure.html url="signs/suprasegmentals/vowel.svg" title="Vowel" class="suprasegmental" width="30" caption=false %}{% include figure.html url="signs/suprasegmentals/faded-consonant.svg" title="Faded Consonant" class="suprasegmental" caption=false %}{% include figure.html url="signs/suprasegmentals/faded-vowel.svg" title="Faded Vowel" class="suprasegmental" caption=false %}</td>
+        <td>Extra-short</td>
+        <td>Length of the symbol = length of the sound</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>{% include figure.html url="#" title="Lateral fricative" height="55" caption=false %}</td>
+        <td>Syllable&nbsp;break or
+syllable&nbsp;unity</td>
+        <td>Meander like linked symbols = syllable pronounced as a sound unite</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>{% include figure.html url="#" title="Affricate" height="50" caption=false %}</td>
+        <td>Minor group (foot)</td>
+        <td>Same as IPA</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>{% include figure.html url="#" title="Clicks" height="50" caption=false %}</td>
+        <td>Major group (intonation)</td>
+        <td>Same as IPA</td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>{% include figure.html url="#" title="Implosives" height="55" caption=false %}</td>
+        <td>Linking
+(absence of break)</td>
+        <td>Same as IPA</td>
+      </tr>
+    </tbody>
+  </table>
