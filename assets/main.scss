@@ -22,6 +22,10 @@ cite {
   display: inline-block;
 }
 
+.sign img:hover {
+  transform: scale(1.5);
+}
+
 .suprasegmetals .sign img {
   object-fit: fill;
 }
