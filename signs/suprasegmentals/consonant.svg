@@ -7,7 +7,7 @@ styles: ["grid", "gridCont", "text", "teeth", "copyright", "shape"]
 {%- assign gridX = basic.grid.x.consonant -%}
 {%- assign gridY = basic.grid.y.consonant -%}
 {% include opening.html par='preserveAspectRatio="none"' -%}
-<title>{{ title }}</title>
+<title>{{ page.title }}</title>
 {% include creator.html -%}
 {% include license.html -%}
 <style type="text/css">
