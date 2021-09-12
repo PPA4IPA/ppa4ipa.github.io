@@ -336,13 +336,13 @@ syllable&nbsp;unity</td>
       </tr>
       <tr>
         <td>7</td>
-        <td>{% include figure.html url="#" title="" height="50" caption=false %}</td>
+        <td>{% include figure.html url="signs/suprasegmentals/faded-consonant.svg" title="Faded Consonant" caption=false %}{% include figure.html url="signs/suprasegmentals/vowel.svg" title="Vowel" caption=false %}{% include figure.html url="signs/suprasegmentals/faded-consonant.svg" title="Faded Consonant" caption=false %}{% include figure.html url="signs/suprasegmentals/faded-vowel.svg" title="Faded Vowel" caption=false %}{% include figure.html url="signs/suprasegmentals/faded-consonant.svg" title="Faded Consonant" caption=false %}{% include figure.html url="signs/suprasegmentals/vowel.svg" title="Vowel" caption=false %}</td>
         <td>Minor group (foot)</td>
         <td>Same as IPA</td>
       </tr>
       <tr>
         <td>8</td>
-        <td>{% include figure.html url="#" title="" height="50" caption=false %}</td>
+        <td>{% include figure.html url="signs/suprasegmentals/faded-consonant.svg" title="Faded Consonant" caption=false %}{% include figure.html url="signs/suprasegmentals/vowel.svg" title="Vowel" caption=false %}{% include figure.html url="signs/suprasegmentals/faded-consonant.svg" title="Faded Consonant" caption=false %}{% include figure.html url="signs/suprasegmentals/faded-vowel.svg" title="Faded Vowel" caption=false %}{% include figure.html url="signs/suprasegmentals/faded-consonant.svg" title="Faded Consonant" caption=false %}{% include figure.html url="signs/suprasegmentals/vowel.svg" title="Vowel" caption=false %}</td>
         <td>Major group (intonation)</td>
         <td>Same as IPA</td>
       </tr>
