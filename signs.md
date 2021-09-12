@@ -291,7 +291,7 @@ Under development.
     <thead>
       <tr>
         <th>N</th>
-        <th width="380">Symbols</th>
+        <th width="520">Symbols</th>
         <th>Meaning</th>
         <th>Pictographic metaphor</th>
       </tr>
