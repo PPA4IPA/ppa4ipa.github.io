@@ -2,8 +2,11 @@
 layout: compress
 styles: ["grid", "gridCont", "activeFilled", "text", "lips", "teeth", "copyright", "shape"]
 ---
-{%- assign end_tongue = site.data.vowel[page.tongue] -%}
-{%- assign end_lips = site.data.vowel[page.lips] -%}
+{%- if page.tongue %}
+{%- assign end_vowel = site.data.vowel[page.tongue] -%}
+{%- else %}
+{%- assign end_vowel = site.data.vowel[page.lips] -%}
+{%- endif %}
 {%- assign basic = site.data.basic -%}
 {%- assign vowel = site.data.vowel[page.from] -%}
 {%- assign nasal = vowel.class.nasal -%}
@@ -15,7 +18,7 @@ styles: ["grid", "gridCont", "activeFilled", "text", "lips", "teeth", "copyright
 {%- assign gridY = basic.grid.y.vowel -%}
 {%- endif %}
 {% include opening.html -%}
-<title>{{ vowel.title }}</title>
+<title>{{ vowel.title }}🠒{{ site.data.vowel[page.from].title }}</title>
 {% include creator.html -%}
 {% include license.html -%}
 {% include style.html -%}
@@ -28,7 +31,7 @@ styles: ["grid", "gridCont", "activeFilled", "text", "lips", "teeth", "copyright
 <path d="M{{ gridX }},{{ gridY }}{{ basic.grid.path }}" class="grid"/>
 {%- if nasal %}{{ basic.teeth.nasalVowel }}{% else %}{{ basic.teeth.vowel }}{% endif %}
 <path d="{% if nasal %}{{ basic.shape.nasalVowel }}{% else %}{{ basic.shape.vowel }}{% endif %}" mask="url(#{{ vowel.title }}_hole)" class="shape"/>
-<{%- include lips.html %}{% if nasal %} transform="translate(0 7)"{% endif %} class="lips"{%- if page.lips %}>{% include animate.html values=lips_end -%}</path>{% else %}/>{% endif %}
-<path d="{{ site.data.tongue[vowel.tongue] }}"{% if nasal %} transform="translate(-2 7)"{% endif %} class="activeFilled"{%- if page.tongue %}>{% include animate.html values=tongue_end -%}</path>{% else %}/>{% endif %}
+<{%- include lips.html %}{% if nasal %} transform="translate(0 7)"{% endif %} class="lips"{%- if page.lips %}>{% include animate.html values={{ site.data.lips[end_vowel.lips] }} -%}</path>{% else %}/>{% endif %}
+<path d="{{ site.data.tongue[vowel.tongue] }}"{% if nasal %} transform="translate(-2 7)"{% endif %} class="activeFilled"{%- if page.tongue %}>{% include animate.html values={{ site.data.tongue[end_vowel.tongue] }} -%}</path>{% else %}/>{% endif %}
 {% include copyright.html -%}
 </svg>
