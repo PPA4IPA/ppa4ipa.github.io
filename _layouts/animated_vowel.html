@@ -2,6 +2,8 @@
 layout: compress
 styles: ["grid", "gridCont", "activeFilled", "text", "lips", "teeth", "copyright", "shape"]
 ---
+{%- assign end_tongue = site.data.vowel[page.tongue] -%}
+{%- assign end_lips = site.data.vowel[page.lips] -%}
 {%- assign basic = site.data.basic -%}
 {%- assign vowel = site.data.vowel[page.from] -%}
 {%- assign nasal = vowel.class.nasal -%}
@@ -26,7 +28,7 @@ styles: ["grid", "gridCont", "activeFilled", "text", "lips", "teeth", "copyright
 <path d="M{{ gridX }},{{ gridY }}{{ basic.grid.path }}" class="grid"/>
 {%- if nasal %}{{ basic.teeth.nasalVowel }}{% else %}{{ basic.teeth.vowel }}{% endif %}
 <path d="{% if nasal %}{{ basic.shape.nasalVowel }}{% else %}{{ basic.shape.vowel }}{% endif %}" mask="url(#{{ vowel.title }}_hole)" class="shape"/>
-<{%- include lips.html %}{% if nasal %} transform="translate(0 7)"{% endif %} class="lips"/>
-<path d="{{ site.data.tongue[vowel.tongue] }}"{% if nasal %} transform="translate(-2 7)"{% endif %} class="activeFilled"{%- if nasal %}>{% include animate.html values=page.to -%}</path>{% else %}/>{% endif %}
+<{%- include lips.html %}{% if nasal %} transform="translate(0 7)"{% endif %} class="lips"{%- if page.lips %}>{% include animate.html values=lips_end -%}</path>{% else %}/>{% endif %}
+<path d="{{ site.data.tongue[vowel.tongue] }}"{% if nasal %} transform="translate(-2 7)"{% endif %} class="activeFilled"{%- if page.tongue %}>{% include animate.html values=tongue_end -%}</path>{% else %}/>{% endif %}
 {% include copyright.html -%}
 </svg>
