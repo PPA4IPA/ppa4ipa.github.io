@@ -36,7 +36,7 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       image: "/img/card.png"
-      layout: "post"
+      layout: post
   -
     scope:
       path: "signs"
@@ -54,6 +54,11 @@ defaults:
       path: "signs/vowels"
     values:
       layout: vowel
+  -
+    scope:
+      path: "signs/vowels/animated"
+    values:
+      layout: animated_vowel
   -
     scope:
       path: "signs/mods/figures"
