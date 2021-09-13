@@ -2,13 +2,6 @@
 layout: compress
 styles: ["grid", "gridCont", "activeFilled", "text", "lips", "teeth", "copyright", "shape"]
 ---
-{%- if page.tongue %}
-{%- assign end_vowel = site.data.vowel[page.tongue] -%}
-{%- assign end_tongue = site.data.tongue[end_vowel.tongue] -%}
-{%- else %}
-{%- assign end_vowel = site.data.vowel[page.lips] -%}
-{%- assign end_lips = site.data.lips[end_vowel.lips] -%}
-{%- endif %}
 {%- assign basic = site.data.basic -%}
 {%- assign vowel = site.data.vowel[page.from] -%}
 {%- assign nasal = vowel.class.nasal -%}
@@ -18,6 +11,15 @@ styles: ["grid", "gridCont", "activeFilled", "text", "lips", "teeth", "copyright
 {%- else %}
 {%- assign gridX = basic.grid.x.vowel -%}
 {%- assign gridY = basic.grid.y.vowel -%}
+{%- endif %}
+{%- if page.tongue %}
+{%- assign end_vowel = site.data.vowel[page.tongue] -%}
+{%- assign end_tongue = site.data.tongue[end_vowel.tongue] -%}
+{% capture tongue_values %}{{ site.data.tongue[vowel.tongue] }};{{ end_tongue }}{% endcapture %}
+{%- else %}
+{%- assign end_vowel = site.data.vowel[page.lips] -%}
+{%- assign end_lips = site.data.lips[end_vowel.lips] -%}
+{% capture lips_values %}{{ site.data.lips[vowel.lips] }};{{ end_lips }}{% endcapture %}
 {%- endif %}
 {% include opening.html -%}
 <title>{{ vowel.title }}🠒{{ end_vowel.title }}</title>
@@ -33,7 +35,7 @@ styles: ["grid", "gridCont", "activeFilled", "text", "lips", "teeth", "copyright
 <path d="M{{ gridX }},{{ gridY }}{{ basic.grid.path }}" class="grid"/>
 {%- if nasal %}{{ basic.teeth.nasalVowel }}{% else %}{{ basic.teeth.vowel }}{% endif %}
 <path d="{% if nasal %}{{ basic.shape.nasalVowel }}{% else %}{{ basic.shape.vowel }}{% endif %}" mask="url(#{{ vowel.title }}_hole)" class="shape"/>
-<{%- include lips.html %}{% if nasal %} transform="translate(0 7)"{% endif %} class="lips"{%- if page.lips %}>{% include animate.html values=end_lips -%}</path>{% else %}/>{% endif %}
-<path d="{{ site.data.tongue[vowel.tongue] }}"{% if nasal %} transform="translate(-2 7)"{% endif %} class="activeFilled"{%- if page.tongue %}>{% include animate.html values=end_tongue -%}</path>{% else %}/>{% endif %}
+<{%- include lips.html %}{% if nasal %} transform="translate(0 7)"{% endif %} class="lips"/>
+<path {% if nasal %} transform="translate(-2 7)"{% endif %} class="activeFilled"{%- if page.tongue %}>{% include animate.html values=tongue_values -%}</path>{% else %} d="{{ site.data.tongue[vowel.tongue] }}"/>{% endif %}
 {% include copyright.html -%}
 </svg>
