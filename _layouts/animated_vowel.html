@@ -36,6 +36,6 @@ styles: ["grid", "gridCont", "activeFilled", "text", "lips", "teeth", "copyright
 {%- if nasal %}{{ basic.teeth.nasalVowel }}{% else %}{{ basic.teeth.vowel }}{% endif %}
 <path d="{% if nasal %}{{ basic.shape.nasalVowel }}{% else %}{{ basic.shape.vowel }}{% endif %}" mask="url(#{{ vowel.title }}_hole)" class="shape"/>
 <{%- include lips.html %}{% if nasal %} transform="translate(0 7)"{% endif %} class="lips"/>
-<path {% if nasal %} transform="translate(-2 7)"{% endif %} class="activeFilled"{%- if page.tongue %}>{% include animate.html values=tongue_values -%}</path>{% else %} d="{{ site.data.tongue[vowel.tongue] }}"/>{% endif %}
+<path d="{{ site.data.tongue[vowel.tongue] }}" {% if nasal %} transform="translate(-2 7)"{% endif %} class="activeFilled"{%- if page.tongue %}>{% include animate.html values=tongue_values -%}</path>{% else %} d="{{ site.data.tongue[vowel.tongue] }}"/>{% endif %}
 {% include copyright.html -%}
 </svg>
