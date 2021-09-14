@@ -5,7 +5,7 @@
   "gridCont": ".gridCont {stroke-width: 0}",
   "activeFilled": ".activeFilled {fill: #f00; stroke-width: 1}",
   "text": "text {font-family: Arial, Helvetica Neue, Helvetica, sans-serif}",
-  "lips": ".lips {fill: none; stroke: #000; stroke-width: 6}",
+  "lips": ".lips {fill: #fbe5d6; stroke: #000; stroke-width: 6}",
   "teeth": ".teeth {fill: #000; stroke-width: 0}",
   "fadedTeeth": ".fadedTeeth {fill: #d3d3d3; stroke-width: 0}",
   "copyright": ".copyright {font-size: 25px; stroke-width: 0; fill: #ddd}",
