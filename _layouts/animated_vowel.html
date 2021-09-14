@@ -59,6 +59,6 @@ styles: ["grid", "gridCont", "activeFilled", "text", "lips", "teeth", "copyright
 {%- else -%}
 "/>
 {%- endif %}
-<path d="{{ site.data.tongue[vowel.tongue] }}" {% if nasal %} transform="translate(-2 7)"{% endif %} class="activeFilled"{%- if page.tongue %}>{% include animate.html id=tongue_animation_id values=tongue_values begin=begin -%}</path>{% else %} d="{{ site.data.tongue[vowel.tongue] }}"/>{% endif %}
+<path d="{{ site.data.tongue[vowel.tongue] }}" {% if nasal %} transform="translate(-2 7)"{% endif %} class="activeFilled"{%- if page.tongue %}>{% include animate.html id=tongue_animation_id values=tongue_values begin=begin -%}</path>{% else %}/>{% endif %}
 {% include copyright.html -%}
 </svg>
