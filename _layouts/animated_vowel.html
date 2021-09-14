@@ -15,11 +15,25 @@ styles: ["grid", "gridCont", "activeFilled", "text", "lips", "teeth", "copyright
 {%- if page.tongue %}
 {%- assign end_vowel = site.data.vowel[page.tongue] -%}
 {%- assign end_tongue = site.data.tongue[end_vowel.tongue] -%}
-{% capture tongue_values %}{{ site.data.tongue[vowel.tongue] }};{{ end_tongue }}{% endcapture %}
-{%- else %}
+{%- capture tongue_animation_id %}{{ vowel.title }}-{{ end_vowel.title }}_tongue_animation_id{% endcapture %}
+{%- capture tongue_values %}{{ site.data.tongue[vowel.tongue] }};{{ end_tongue }}{% endcapture %}
+{%- endif %}
+{%- if page.lips %}
 {%- assign end_vowel = site.data.vowel[page.lips] -%}
 {%- assign end_lips = site.data.lips[end_vowel.lips] -%}
-{% capture lips_values %}{{ site.data.lips[vowel.lips] }};{{ end_lips }}{% endcapture %}
+{%- capture lips_cx_animation_id %}{{ vowel.title }}-{{ end_vowel.title }}_lips_cx_animation_id{% endcapture %}
+{%- capture lips_cy_animation_id %}{{ vowel.title }}-{{ end_vowel.title }}_lips_cy_animation_id{% endcapture %}
+{%- capture lips_rx_animation_id %}{{ vowel.title }}-{{ end_vowel.title }}_lips_rx_animation_id{% endcapture %}
+{%- capture lips_ry_animation_id %}{{ vowel.title }}-{{ end_vowel.title }}_lips_ry_animation_id{% endcapture %}
+{%- capture lips_cx_values %}{{ site.data.lips[vowel.lips]["cx"] }};{{ end_lips.cx }}{% endcapture %}
+{%- capture lips_cy_values %}{{ site.data.lips[vowel.lips]["cy"] }};{{ end_lips.cy }}{% endcapture %}
+{%- capture lips_rx_values %}{{ site.data.lips[vowel.lips]["rx"] }};{{ end_lips.rx }}{% endcapture %}
+{%- capture lips_ry_values %}{{ site.data.lips[vowel.lips]["ry"] }};{{ end_lips.ry }}{% endcapture %}
+{%- endif %}
+{%- if page.tongue and page.lips %}
+{%- capture begin %}click;{{ tongue_animation_id }}.begin;{{ lips_cx_animation_id }}.begin;{{ lips_cy_animation_id }}.begin;{{ lips_rx_animation_id }}.begin;{{ lips_ry_animation_id }}.begin{% endcapture %}
+{%- else %}
+{%- assign begin = "click" -%}
 {%- endif %}
 {% include opening.html -%}
 <title>{{ vowel.title }}🠒{{ end_vowel.title }}</title>
@@ -35,7 +49,16 @@ styles: ["grid", "gridCont", "activeFilled", "text", "lips", "teeth", "copyright
 <path d="M{{ gridX }},{{ gridY }}{{ basic.grid.path }}" class="grid"/>
 {%- if nasal %}{{ basic.teeth.nasalVowel }}{% else %}{{ basic.teeth.vowel }}{% endif %}
 <path d="{% if nasal %}{{ basic.shape.nasalVowel }}{% else %}{{ basic.shape.vowel }}{% endif %}" mask="url(#{{ vowel.title }}_hole)" class="shape"/>
-<{%- include lips.html %}{% if nasal %} transform="translate(0 7)"{% endif %} class="lips"/>
-<path d="{{ site.data.tongue[vowel.tongue] }}" {% if nasal %} transform="translate(-2 7)"{% endif %} class="activeFilled"{%- if page.tongue %}>{% include animate.html values=tongue_values -%}</path>{% else %} d="{{ site.data.tongue[vowel.tongue] }}"/>{% endif %}
+<{%- include lips.html %}{% if nasal %} transform="translate(0 7)"{% endif %} class="lips"
+{%- if page.tongue -%}
+>{% include animate.html id=lips_cx_animation_id values=lips_cx_values begin=begin -%}
+{% include animate.html id=lips_cy_animation_id values=lips_cy_values begin=begin -%}
+{% include animate.html id=lips_rx_animation_id values=lips_rx_values begin=begin -%}
+{% include animate.html id=lips_ry_animation_id values=lips_ry_values begin=begin -%}
+</path>
+{%- else -%}
+"/>
+{%- endif %}
+<path d="{{ site.data.tongue[vowel.tongue] }}" {% if nasal %} transform="translate(-2 7)"{% endif %} class="activeFilled"{%- if page.tongue %}>{% include animate.html id=tongue_animation_id values=tongue_values begin=begin -%}</path>{% else %} d="{{ site.data.tongue[vowel.tongue] }}"/>{% endif %}
 {% include copyright.html -%}
 </svg>
