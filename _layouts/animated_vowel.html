@@ -50,7 +50,7 @@ styles: ["grid", "gridCont", "activeFilled", "text", "lips", "teeth", "copyright
 {%- if nasal %}{{ basic.teeth.nasalVowel }}{% else %}{{ basic.teeth.vowel }}{% endif %}
 <path d="{% if nasal %}{{ basic.shape.nasalVowel }}{% else %}{{ basic.shape.vowel }}{% endif %}" mask="url(#{{ vowel.title }}_hole)" class="shape"/>
 <{%- include lips.html %}{% if nasal %} transform="translate(0 7)"{% endif %} class="lips"
-{%- if page.tongue -%}
+{%- if page.lips -%}
 >{% include animate.html attributeName="cx" id=lips_cx_animation_id values=lips_cx_values begin=begin -%}
 {% include animate.html attributeName="cy" id=lips_cy_animation_id values=lips_cy_values begin=begin -%}
 {% include animate.html attributeName="rx" id=lips_rx_animation_id values=lips_rx_values begin=begin -%}
