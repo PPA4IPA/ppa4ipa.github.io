@@ -15,16 +15,16 @@ styles: ["grid", "gridCont", "activeFilled", "text", "lips", "teeth", "copyright
 {%- if page.tongue %}
 {%- assign end_vowel = site.data.vowel[page.tongue] -%}
 {%- assign end_tongue = site.data.tongue[end_vowel.tongue] -%}
-{%- capture tongue_animation_id %}{{ vowel.title }}-{{ end_vowel.title }}_tongue_animation{% endcapture %}
+{%- capture tongue_animation_id %}{{ vowel.title }}_{{ end_vowel.title }}_tongue_animation{% endcapture %}
 {%- capture tongue_values %}{{ site.data.tongue[vowel.tongue] }};{{ end_tongue }}{% endcapture %}
 {%- endif %}
 {%- if page.lips %}
 {%- assign end_vowel = site.data.vowel[page.lips] -%}
 {%- assign end_lips = site.data.lips[end_vowel.lips] -%}
-{%- capture lips_cx_animation_id %}{{ vowel.title }}-{{ end_vowel.title }}_lips_cx_animation{% endcapture %}
-{%- capture lips_cy_animation_id %}{{ vowel.title }}-{{ end_vowel.title }}_lips_cy_animation{% endcapture %}
-{%- capture lips_rx_animation_id %}{{ vowel.title }}-{{ end_vowel.title }}_lips_rx_animation{% endcapture %}
-{%- capture lips_ry_animation_id %}{{ vowel.title }}-{{ end_vowel.title }}_lips_ry_animation{% endcapture %}
+{%- capture lips_cx_animation_id %}{{ vowel.title }}_{{ end_vowel.title }}_lips_cx_animation{% endcapture %}
+{%- capture lips_cy_animation_id %}{{ vowel.title }}_{{ end_vowel.title }}_lips_cy_animation{% endcapture %}
+{%- capture lips_rx_animation_id %}{{ vowel.title }}_{{ end_vowel.title }}_lips_rx_animation{% endcapture %}
+{%- capture lips_ry_animation_id %}{{ vowel.title }}_{{ end_vowel.title }}_lips_ry_animation{% endcapture %}
 {%- capture lips_cx_values %}{{ site.data.lips[vowel.lips]["cx"] }};{{ end_lips.cx }}{% endcapture %}
 {%- capture lips_cy_values %}{{ site.data.lips[vowel.lips]["cy"] }};{{ end_lips.cy }}{% endcapture %}
 {%- capture lips_rx_values %}{{ site.data.lips[vowel.lips]["rx"] }};{{ end_lips.rx }}{% endcapture %}
