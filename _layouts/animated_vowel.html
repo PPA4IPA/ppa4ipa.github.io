@@ -57,7 +57,7 @@ styles: ["grid", "gridCont", "activeFilled", "text", "lips", "teeth", "copyright
 {% include animate.html attributeName="ry" id=lips_ry_animation_id values=lips_ry_values begin=begin -%}
 </ellipse>
 {%- else -%}
-"/>
+/>
 {%- endif %}
 <path d="{{ site.data.tongue[vowel.tongue] }}" {% if nasal %} transform="translate(-2 7)"{% endif %} class="activeFilled"{%- if page.tongue %}>{% include animate.html id=tongue_animation_id values=tongue_values begin=begin -%}</path>{% else %}/>{% endif %}
 {% include copyright.html -%}
