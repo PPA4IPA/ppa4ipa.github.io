@@ -24,7 +24,7 @@ title: Nasal vowels
     <td>ɑ̃</td>
     <td>{% include figure.html url="signs/vowels/ɑ̃.svg" title="ɑ̃" %}</td>
   </tr>
-    <tr>
+  <tr>
     <td>ɔ̃</td>
     <td>{% include figure.html url="signs/vowels/ɔ̃.svg title="ɔ̃" %}</td>
   </tr>
