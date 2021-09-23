@@ -94,7 +94,7 @@ defaults:
         exclude: "yes"
   -
     scope:
-      path: "nasalvowels.md" # Exclude from sitemap.xml
+      path: "nasalvowels.md" # Exclude it from sitemap.xml
     values:
       sitemap:
         exclude: "yes"
