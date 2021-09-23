@@ -92,12 +92,6 @@ defaults:
     values:
       sitemap:
         exclude: "yes"
-  -
-    scope:
-      path: "nasalvowels.md" # Exclude it from sitemap.xml
-    values:
-      sitemap:
-        exclude: "yes"
 
 plugins:
   - jekyll-sitemap
