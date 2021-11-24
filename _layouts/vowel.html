@@ -18,7 +18,7 @@ styles: ["grid", "gridCont", "activeFilled", "text", "lips", "teeth", "copyright
 {% include license.html -%}
 {% include style.html -%}
 <defs>
-  <mask id="{{ vowel.title }}_hole">
+  <mask id="{{ vowel.title }}_hole" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" height="120%" width="120%" x="-10%" y="-10%">
     <rect width="100%" height="100%" fill="white"/>
     <{%- include lips.html %}{% if nasal %} transform="translate(-2 7)"{% endif %} fill="black" stroke-width="0"/>
   </mask>
