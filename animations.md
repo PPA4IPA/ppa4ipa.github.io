@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Animated signs
+title: Animations
 ---
 
 <table class="hcenter bottomcap">
