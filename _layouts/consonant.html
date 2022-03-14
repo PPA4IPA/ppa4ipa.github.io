@@ -46,6 +46,8 @@ styles: ["grid", "gridCont", "activeFilled", "text", "teeth", "copyright", "shap
 <path d="{{ site.data.tongue[consonant.tongue] }}" class="activeFilled"/>
 {%- if consonant.voiced %}
 {{ site.data.diacritic["voiced.svg"].sign }}
+{%- else %}
+{{ site.data.diacritic["unvoiced.svg"].sign }}
 {%- endif %}
 <use xlink:href="#{{ site.data.mode[mode_name].title }}_mode" href="#{{ site.data.mode[mode_name].title }}_mode" class="in" transform="{{ site.data.mode_transform[consonant.mode_transform] }}"/>
 {% include copyright.html -%}
