@@ -43,6 +43,94 @@
       "approximant": false,
       "lateral": false
     },
+    "ndv.svg": {
+      "title": "ndv",
+      "class": { "main": "nasal", "byTongue": "dental" },
+      "mode": "nothing.svg",
+      "mode_transform": "dental",
+      "tongue": 18,
+      "voiced": true,
+      "nasal": true,
+      "approximant": false,
+      "lateral": false
+    },
+    "tdv.svg": {
+      "title": "tdv",
+      "class": { "main": "trill", "byTongue": "dental" },
+      "mode": "trill.svg",
+      "mode_transform": "dental",
+      "tongue": 18,
+      "voiced": true,
+      "nasal": false,
+      "approximant": false,
+      "lateral": false
+    },
+    "ldv.svg": {
+      "title": "ldv",
+      "class": { "main": "lateral approximant", "byTongue": "dental" },
+      "mode": "lateral.svg",
+      "mode_transform": "dental",
+      "tongue": 18,
+      "voiced": true,
+      "nasal": false,
+      "approximant": true,
+      "lateral": true
+    },
+    "ppou.svg": {
+      "title": "ppou",
+      "class": { "main": "plosive", "byTongue": "postalveolar" },
+      "mode": "plosive.svg",
+      "mode_transform": "postalveolar",
+      "tongue": 20,
+      "voiced": false,
+      "nasal": false,
+      "approximant": false,
+      "lateral": false
+    },
+    "ppov.svg": {
+      "title": "ppov",
+      "class": { "main": "plosive", "byTongue": "postalveolar" },
+      "mode": "plosive.svg",
+      "mode_transform": "postalveolar",
+      "tongue": 20,
+      "voiced": true,
+      "nasal": false,
+      "approximant": false,
+      "lateral": false
+    },
+    "npov.svg": {
+      "title": "npov",
+      "class": { "main": "nasal", "byTongue": "postalveolar" },
+      "mode": "nothing.svg",
+      "mode_transform": "postalveolar",
+      "tongue": 20,
+      "voiced": true,
+      "nasal": true,
+      "approximant": false,
+      "lateral": false
+    },
+    "tpov.svg": {
+      "title": "tpov",
+      "class": { "main": "trill", "byTongue": "postalveolar" },
+      "mode": "trill.svg",
+      "mode_transform": "postalveolar",
+      "tongue": 20,
+      "voiced": true,
+      "nasal": false,
+      "approximant": false,
+      "lateral": false
+    },
+    "lpov.svg": {
+      "title": "lpov",
+      "class": { "main": "lateral approximant", "byTongue": "postalveolar" },
+      "mode": "lateral.svg",
+      "mode_transform": "postalveolar",
+      "tongue": 20,
+      "voiced": true,
+      "nasal": false,
+      "approximant": true,
+      "lateral": true
+    },
     "t.svg": {
       "title": "t",
       "class": { "main": "plosive", "byTongue": "alveolar" },
