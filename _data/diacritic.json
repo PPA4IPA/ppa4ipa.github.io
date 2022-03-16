@@ -1,13 +1,13 @@
 {
   "voiced.svg": {
     "title": "voiced",
-    "defs": "<clipPath id=\"cutoff\" clipPathUnits=\"userSpaceOnUse\"><rect x=\"0.5\" y=\"0\" width=\"165\" height=\"55\"/></clipPath>",
-    "sign": "<path transform=\"translate(162.7,104.0) rotate(90 3 9) scale(.33)\" class=\"wave\" clip-path=\"url(#cutoff)\" d=\"m-48.5 27.5q16.5-27 33 0t33 0t33 0t33 0t33 0t33 0t33 0t33 0\"/>"
+    "defs": "<clipPath id=\"dcutoff\" clipPathUnits=\"userSpaceOnUse\"><rect x=\"0.5\" y=\"0\" width=\"165\" height=\"55\"/></clipPath>",
+    "sign": "<path transform=\"translate(162.7,104.0) rotate(90 3 9) scale(.33)\" class=\"wave\" clip-path=\"url(#dcutoff)\" d=\"m-48.5 27.5q16.5-27 33 0t33 0t33 0t33 0t33 0t33 0t33 0t33 0\"/>"
   },
   "creaky-voiced.svg": {
     "title": "creaky voiced",
-    "defs": "<clipPath id=\"cutoff\"><rect x=\"0.5\" y=\"0\" width=\"165\" height=\"55\"/></clipPath>",
-    "sign": "<path id=\"creaky_partial\" transform=\"translate(166.7,104.0) rotate(90 3 9) scale(.33)\" class=\"wave\" clip-path=\"url(#cutoff)\" d=\"m-48.5 27.5q16.5-27 33 0t33 0t33 0t33 0t33 0t33 0t33 0t33 0\"/><use xlink:href=\"#creaky_partial\" href=\"#creaky_partial\" class=\"wave\" transform=\"rotate(25 166.7,110.0)\"/>"
+    "defs": "<clipPath id=\"dcutoff\"><rect x=\"0.5\" y=\"0\" width=\"165\" height=\"55\"/></clipPath>",
+    "sign": "<path id=\"creaky_partial\" transform=\"translate(166.7,104.0) rotate(90 3 9) scale(.33)\" class=\"wave\" clip-path=\"url(#dcutoff)\" d=\"m-48.5 27.5q16.5-27 33 0t33 0t33 0t33 0t33 0t33 0t33 0t33 0\"/><use xlink:href=\"#creaky_partial\" href=\"#creaky_partial\" class=\"wave\" transform=\"rotate(25 166.7,110.0)\"/>"
   },
   "breathy-voiced.svg": {
     "title": "breathy voiced",
