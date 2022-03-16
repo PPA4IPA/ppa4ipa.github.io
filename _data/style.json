@@ -21,6 +21,7 @@
   "wave": ".wave{stroke-width:6;stroke:#000;fill:none;vector-effect:none}",
   "symb": ".symb{stroke-width:0;fill:#000}",
   "mode": ".mode{fill:#97f765;stroke:#000;vector-effect:none}",
-  "out": ".out{stroke-width:1;fill:none}",
+  "in": ".in{stroke-width:1;fill:#000;vector-effect:none}",
+  "out": ".out{stroke-width:1;fill:none;vector-effect:none}",
   "supplementaryIndicator": ".supplementaryIndicator{stroke-width:0;fill:#4682B4}"
 }
