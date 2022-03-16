@@ -60,5 +60,9 @@ title: All signs
 <td>8</td><td>{% include figure.html url="signs/mods/figures/lateral.svg" title="Lateral approximant" %}</td>
 <td></td><td></td><td>{% include figure.html url="signs/consonants/ldv.svg" title=" " %}</td><td>{% include figure.html url="signs/consonants/l.svg" title="l" %}</td><td>{% include figure.html url="signs/consonants/lpov.svg" title=" " %}</td><td>{% include figure.html url="signs/consonants/ɭ.svg" title="ɭ" %}</td><td>{% include figure.html url="signs/consonants/ʎ.svg" title="ʎ" %}</td><td>{% include figure.html url="signs/consonants/ʟ.svg" title="ʟ" %}</td><td></td><td></td><td></td>
 </tr>
+<tr>
+<td>9</td><td>{% include figure.html url="signs/mods/figures/affricate.svg" title="Affricate" %}</td>
+<td></td><td></td><td>{% include figure.html url="signs/consonants/afdv.svg" title=" " %}</td><td>{% include figure.html url="signs/consonants/afav.svg" title=" " %}</td><td>{% include figure.html url="signs/consonants/afpov.svg" title=" " %}</td><td></td><td>{% include figure.html url="signs/consonants/afpav.svg" title=" " %}</td><td>{% include figure.html url="signs/consonants/afvv.svg" title=" " %}</td><td></td><td></td><td></td>
+</tr>
 </table>
 </div>
