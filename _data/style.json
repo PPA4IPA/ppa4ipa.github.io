@@ -18,9 +18,9 @@
   "boldLine": ".boldLine{stroke-width:8;stroke-linecap:butt}",
   "crossLine": ".crossLine{stroke-width:5;stroke-linecap:butt}",
   "blackLine": ".blackLine{stroke:#000}",
-  "wave": ".wave{stroke-width:6;stroke:#000;fill:none}",
+  "wave": ".wave{stroke-width:6;stroke:#000;fill:none;vector-effect:non-scaling-stroke}",
   "symb": ".symb{stroke-width:0;fill:#000}",
-  "mode": ".mode{fill:#97f765;stroke:#000}",
+  "mode": ".mode{fill:#97f765;stroke:#000;vector-effect:non-scaling-stroke}",
   "out": ".out{stroke-width:1;fill:none}",
   "supplementaryIndicator": ".supplementaryIndicator{stroke-width:0;fill:#4682B4}"
 }
