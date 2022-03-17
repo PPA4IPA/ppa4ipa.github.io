@@ -54,6 +54,8 @@
     "height": "50",
     "styles": ["arrow", "arrowTail"],
     "base": "<g id=\"halfAffricate\"><g class=\"arrowTail\"><line x1=\"30\" y1=\"13\" x2=\"90\" y2=\"13\"/><line x1=\"20\" y1=\"37\" x2=\"90\" y2=\"37\"/><line x1=\"90\" y1=\"0\" x2=\"90\" y2=\"50\"/></g><polygon points=\"21,27 21,47 0,37\" class=\"arrow\"/></g><use xlink:href=\"#halfAffricate\" transform=\"matrix(-1,0,0,1,200,0)\"/>",
+    "abase": "<g viewBox=\"0,0,200,40\" width=\"100%\" height=\"100%\"><g id=\"halfPlosive\"><g class=\"arrowTail\"><line x1=\"100\" y1=\"-36\" x2=\"100\" y2=\"10\"/><line x1=\"35\" y1=\"10\" x2=\"165\" y2=\"10\"/></g><polygon points=\"90,-35 100,-55 110,-35\" class=\"arrow\"/></g><use xlink:href=\"#halfPlosive\" href=\"#halfPlosive\" transform=\"rotate(180 100 20)\"/></g><g transform=\"scale(0.9) translate(131 115)\">
+    <g id=\"arrowDoubled\"><line class=\"arrowTail\" x1=\"20\" y1=\"10\" x2=\"120\" y2=\"10\"/><polygon id=\"arrowLeft\" class=\"arrow\" points=\"0,10 33,0 33,20\"/><use xlink:href=\"#arrowLeft\" transform=\"matrix(-1,0,0,1,140,0)\"/></g><use x=\"40\" y=\"25\" xlink:href=\"#arrowDoubled\"/></g>",
     "transform": "scale(0.8) translate(26)"
   },
   "clicks.svg": {
