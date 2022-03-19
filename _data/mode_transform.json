@@ -11,7 +11,7 @@
   "pharyngeal": "translate(180.3 80) rotate(90) scale(0.13)",
   "glottal": "translate(180.3 103) rotate(90) scale(0.14)",
   "affricate_dental": "translate(41 64) rotate(-55) scale(0.19)",
-  "affricate_alveolar": "translate(52.0 31.4) rotate(-15) scale(0.19)",
+  "affricate_alveolar": "translate(51.4 30.2) rotate(-15) scale(0.19)",
   "affricate_postalveolar": "translate(62.3 23.58) scale(0.19)",
   "affricate_palatal": "translate(108.7 20.3) rotate(15) scale(0.19)",
   "affricate_velar": "translate(142.1 16.8) rotate(35) scale(0.19)"
