@@ -793,13 +793,24 @@
     "approximant": false,
     "lateral": false
   },
-  "afpov.svg": {
-    "title": "afpov",
+  "dʒ.svg": {
+    "title": "dʒ",
     "class": { "main": "affricate", "byTongue": "postalveolar" },
     "mode": "affricate.svg",
     "mode_transform": "affricate_postalveolar",
     "tongue": 20,
     "voiced": true,
+    "nasal": false,
+    "approximant": false,
+    "lateral": false
+  },
+  "tʃ.svg": {
+    "title": "tʃ",
+    "class": { "main": "affricate", "byTongue": "postalveolar" },
+    "mode": "affricate.svg",
+    "mode_transform": "affricate_postalveolar",
+    "tongue": 20,
+    "voiced": false,
     "nasal": false,
     "approximant": false,
     "lateral": false

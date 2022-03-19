@@ -62,7 +62,7 @@ title: All signs
 </tr>
 <tr>
 <td>9</td><td>{% include figure.html url="signs/mods/figures/affricate.svg" title="Affricate" %}</td>
-<td></td><td></td><td>{% include figure.html url="signs/consonants/afdv.svg" title=" " %}</td><td>{% include figure.html url="signs/consonants/afav.svg" title=" " %}</td><td>{% include figure.html url="signs/consonants/afpov.svg" title=" " %}</td><td></td><td>{% include figure.html url="signs/consonants/afpav.svg" title=" " %}</td><td>{% include figure.html url="signs/consonants/afvv.svg" title=" " %}</td><td></td><td></td><td></td>
+<td></td><td></td><td>{% include figure.html url="signs/consonants/afdv.svg" title=" " %}</td><td>{% include figure.html url="signs/consonants/afav.svg" title=" " %}</td><td>{% include figure.html url="signs/consonants/tʃ.svg" title="tʃ" %}{% include figure.html url="signs/consonants/dʒ.svg" title="dʒ" %}</td><td></td><td>{% include figure.html url="signs/consonants/afpav.svg" title=" " %}</td><td>{% include figure.html url="signs/consonants/afvv.svg" title=" " %}</td><td></td><td></td><td></td>
 </tr>
 </table>
 </div>
