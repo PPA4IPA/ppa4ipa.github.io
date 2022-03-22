@@ -771,6 +771,17 @@
     "approximant": true,
     "lateral": true
   },
+  "afdu.svg": {
+    "title": "afdu",
+    "class": { "main": "affricate", "byTongue": "dental" },
+    "mode": "affricate.svg",
+    "mode_transform": "affricate_dental",
+    "tongue": 18,
+    "voiced": false,
+    "nasal": false,
+    "approximant": false,
+    "lateral": false
+  },
   "afdv.svg": {
     "title": "afdv",
     "class": { "main": "affricate", "byTongue": "dental" },
@@ -782,8 +793,19 @@
     "approximant": false,
     "lateral": false
   },
-  "afav.svg": {
-    "title": "afav",
+  "ts.svg": {
+    "title": "ts",
+    "class": { "main": "affricate", "byTongue": "alveolar" },
+    "mode": "affricate.svg",
+    "mode_transform": "affricate_alveolar",
+    "tongue": 19,
+    "voiced": false,
+    "nasal": false,
+    "approximant": false,
+    "lateral": false
+  },
+  "dz.svg": {
+    "title": "dz",
     "class": { "main": "affricate", "byTongue": "alveolar" },
     "mode": "affricate.svg",
     "mode_transform": "affricate_alveolar",
@@ -815,6 +837,28 @@
     "approximant": false,
     "lateral": false
   },
+  "afru.svg": {
+    "title": "afru",
+    "class": { "main": "affricate", "byTongue": "retroflex" },
+    "mode": "affricate.svg",
+    "mode_transform": "affricate_retroflex",
+    "tongue": 21,
+    "voiced": false,
+    "nasal": false,
+    "approximant": false,
+    "lateral": false
+  },
+  "afrv.svg": {
+    "title": "afrv",
+    "class": { "main": "affricate", "byTongue": "retroflex" },
+    "mode": "affricate.svg",
+    "mode_transform": "affricate_retroflex",
+    "tongue": 21,
+    "voiced": true,
+    "nasal": false,
+    "approximant": false,
+    "lateral": false
+  },
   "afpav.svg": {
     "title": "afpav",
     "class": { "main": "affricate", "byTongue": "palatal" },
@@ -822,6 +866,28 @@
     "mode_transform": "affricate_palatal",
     "tongue": 22,
     "voiced": true,
+    "nasal": false,
+    "approximant": false,
+    "lateral": false
+  },
+  "afpau.svg": {
+    "title": "afpau",
+    "class": { "main": "affricate", "byTongue": "palatal" },
+    "mode": "affricate.svg",
+    "mode_transform": "affricate_palatal",
+    "tongue": 22,
+    "voiced": false,
+    "nasal": false,
+    "approximant": false,
+    "lateral": false
+  },
+  "afvu.svg": {
+    "title": "afvu",
+    "class": { "main": "affricate", "byTongue": "velar" },
+    "mode": "affricate.svg",
+    "mode_transform": "affricate_velar",
+    "tongue": 23,
+    "voiced": false,
     "nasal": false,
     "approximant": false,
     "lateral": false
