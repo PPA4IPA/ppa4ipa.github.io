@@ -8,7 +8,7 @@ order: 3
 ## Reproduction of <cite>{{ site.title }}</cite>
 
 The <cite>{{ site.longtitle }}</cite> as a Work, and each of the <cite>{{ site.longtitle }}</cite> characters 
-and symbols as individual Works, are copyright © 2013 by <cite>{{ site.author }}</cite>. As of June 2013, they are made 
+and symbols as individual Works, are copyright © 2021 by <cite>{{ site.author }}</cite>. As of January 2021, they are made 
 freely available under a <cite>Creative Commons Attribution-NonCommercial-NoDerivs 4.0 Unported (CC BY-NC-ND 4.0) licence</cite>. 
 This licence allows non-commercial use, as long as attribution is given and the reproduction is under 
 the same licence. This licence does not authorize you to alter, transform, or build upon this work. 
@@ -19,7 +19,7 @@ Attribution:
 > <cite>{{ site.longtitle }}</cite>, <{{ site.url }}>, is made available under a 
 > <cite>Creative Commons Attribution-NonCommercial-NoDerivs 4.0 Unported licence</cite> in respect of 
 > the <cite>{{ site.longtitle }}</cite> as a Work, and in respect of each character and symbol 
-> as a distinct individual Work. Copyright © 2013 <cite>{{ site.author }}</cite>. Extended licences 
+> as a distinct individual Work. Copyright © 2021 <cite>{{ site.author }}</cite>. Extended licences 
 > available as expressly authorized in writing by {{ site.author }}, <{{ site.email }}>
 
 <h2 id="{{ site.title }}-characters"> <cite>{{ site.title }}</cite> Characters</h2>
