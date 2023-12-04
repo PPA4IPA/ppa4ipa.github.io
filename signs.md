@@ -165,9 +165,9 @@ Sound recordings on the [<cite>IPA</cite> website][1]
 <caption><cite>{{ site.title }}</cite> <strong>characters</strong> for NASAL VOWELS</caption>
 <tr>
   <td width="20%">{% include figure.html url="signs/vowels/Ĩ.svg" title="Ĩ" %}</td>
+  <td width="20%">{% include figure.html url="signs/vowels/ɛ̃.svg" title="ɛ̃" %}</td>
   <td width="20%">{% include figure.html url="signs/vowels/œ̃.svg" title="œ̃" %}</td>
   <td width="20%">{% include figure.html url="signs/vowels/ɔ̃.svg" title="ɔ̃" %}</td>
-  <td width="20%">{% include figure.html url="signs/vowels/ɛ̃.svg" title="ɛ̃" %}</td>
   <td width="20%">{% include figure.html url="signs/vowels/ɑ̃.svg" title="ɑ̃" %}</td>
 </tr>
 </table>
