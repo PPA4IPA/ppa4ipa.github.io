@@ -158,6 +158,16 @@ Sound recordings on the [<cite>IPA</cite> website][1]
 
 [1]: https://www.internationalphoneticassociation.org/content/sound-recordings "Sound recordings on the IPA website"
 
+
+<h3 id="nasal-vowels"><cite>{{ site.title }}</cite> characters for <strong>NASAL VOWELS</strong></h3>
+
+<tr>
+  <td>{% include figure.html url="signs/vowels/Ĩ.svg" title="Ĩ" %}</td>
+  <td>{% include figure.html url="signs/vowels/œ̃.svg" title="œ̃" %}</td>
+  <td>{% include figure.html url="signs/vowels/ɔ̃.svg" title="ɔ̃" %}</td>
+  <td>{% include figure.html url="signs/vowels/ɛ̃.svg" title="ɛ̃" %}</td>
+  <td>{% include figure.html url="signs/vowels/ɑ̃.svg" title="ɑ̃" %}</td>
+</tr>
 <h2 id="{{ site.title }}-inventory"> <cite>{{ site.title }}</cite> Inventory</h2>
 
 Under development.
