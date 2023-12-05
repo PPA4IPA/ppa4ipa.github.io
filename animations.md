@@ -54,5 +54,13 @@ title: Animations
     <td>/a/ → /ɑ/</td>
     <td>{% include figure.html url="signs/vowels/animated/a-ɑ.svg" title="a→ɑ" %}</td>
   </tr>
+  <tr>
+    <td>/Ĩ/ → /ɛ̃/ → /œ̃/ → /ɔ̃/ → /ɑ̃/</td>
+    <td>{% include figure.html url="signs/vowels/animated/Ĩ-ɛ̃.svg" title="Ĩ→ɛ̃" %}
+    {% include figure.html url="signs/vowels/animated/ɛ̃-œ̃.svg" title="ɛ̃→œ̃" %}
+    {% include figure.html url="signs/vowels/animated/œ̃-ɔ̃.svg" title="œ̃→ɔ̃" %}
+    {% include figure.html url="signs/vowels/animated/ɔ̃-ɑ̃.svg" title="ɔ̃→ɑ̃" %}
+    </td>
+  </tr>
 </tbody>
 </table>
