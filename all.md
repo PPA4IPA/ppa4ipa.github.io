@@ -84,19 +84,19 @@ title: All signs
   <tbody>
   <tr>
     <td>Black</td>
-    <td>{% include figure.html url="signs/suprasegmentals/consonant.svg" title="Consonant" caption=false %}</td>
-    <td>{% include figure.html url="signs/suprasegmentals/consonant.svg" title="Consonant" caption=false %}</td>
-    <td>{% include figure.html url="signs/suprasegmentals/vowel.svg" title="Vowel" caption=false %}</td>
-    <td>{% include figure.html url="signs/suprasegmentals/vowel.svg" title="Vowel" caption=false %}</td>
-    <td>{% include figure.html url="signs/suprasegmentals/vowel.svg" title="Vowel" caption=false %}</td>
+    <td>{% include figure.html url="signs/basic/consonant.svg" title="Consonant" caption=false %}</td>
+    <td>{% include figure.html url="signs/basic/nasal-consonant.svg" title="Nasal Consonant" caption=false %}</td>
+    <td>{% include figure.html url="signs/basic/vowel.svg" title="Vowel" caption=false %}</td>
+    <td>{% include figure.html url="signs/basic/nasal-vowel.svg" title="Nasal Vowel" caption=false %}</td>
+    <td>{% include figure.html url="signs/basic/approximant.svg" title="Approximant" caption=false %}</td>
   </tr>
   <tr>
     <td>Grey</td>
-    <td>{% include figure.html url="signs/suprasegmentals/faded-consonant.svg" title="Faded Consonant" caption=false %}</td>
-    <td>{% include figure.html url="signs/suprasegmentals/faded-consonant.svg" title="Faded Consonant" caption=false %}</td>
-    <td>{% include figure.html url="signs/suprasegmentals/faded-vowel.svg" title="Faded Vowel" caption=false %}</td>
-    <td>{% include figure.html url="signs/suprasegmentals/faded-vowel.svg" title="Faded Vowel" caption=false %}</td>
-    <td>{% include figure.html url="signs/suprasegmentals/faded-vowel.svg" title="Faded Vowel" caption=false %}</td>
+    <td>{% include figure.html url="signs/basic/faded-consonant.svg" title="Faded Consonant" caption=false %}</td>
+    <td>{% include figure.html url="signs/basic/faded-nasal-consonant.svg" title="Faded Nasal Consonant" caption=false %}</td>
+    <td>{% include figure.html url="signs/basic/faded-vowel.svg" title="Faded Vowel" caption=false %}</td>
+    <td>{% include figure.html url="signs/basic/faded-nasal-vowel.svg" title="Faded Nasal Vowel" caption=false %}</td>
+    <td>{% include figure.html url="signs/basic/faded-approximant.svg" title="Faded Approximant" caption=false %}</td>
   </tr>
 </tbody>
 </table>
