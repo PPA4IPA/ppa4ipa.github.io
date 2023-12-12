@@ -70,7 +70,7 @@ title: All signs
 ### Basic shapes
 
 <table class="hcenter bottomcap">
-  <caption><cite>{{ site.title }}</cite> inventory: additional <strong>symbols</strong> for phonological features (DIACRITICS in <cite>IPA</cite>)</caption>
+  <caption>Basic shapes</caption>
   <thead>
   <tr>
     <th>Color</th>
