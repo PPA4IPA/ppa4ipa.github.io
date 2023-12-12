@@ -6,7 +6,7 @@ styles: ["grid", "gridCont", "text", "fadedTeeth", "copyright", "fadedShape"]
 {%- assign basic = site.data.basic -%}
 {%- assign gridX = basic.grid.x.vowel -%}
 {%- assign gridY = basic.grid.y.vowel -%}
-{% include opening.html par='preserveAspectRatio="none"' -%}
+{% include opening.html -%}
 <title>{{ page.title }}</title>
 {% include creator.html -%}
 {% include license.html -%}
