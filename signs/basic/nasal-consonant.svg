@@ -17,6 +17,7 @@ styles: ["grid", "gridCont", "text", "teeth", "copyright", "shape"]
 </style>
 <path d="M{{ gridX }},{{ gridY }}{{ basic.grid.path }}" class="grid"/>
 {{ basic.teeth.consonant }}
+{{ basic.alveola.default }}
 <path d="{{ basic.shape.nasal }}" class="shape"/>
 {% include copyright.html -%}
 </svg>
