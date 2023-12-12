@@ -17,6 +17,6 @@ styles: ["grid", "gridCont", "text", "fadedTeeth", "copyright", "fadedShape"]
 </style>
 <path d="M{{ gridX }},{{ gridY }}{{ basic.grid.path }}" class="grid"/>
 {{ basic.teeth.fadedNasalVowel }}
-<path d="{{ basic.shape.nasalVowel }}" class="fadedShape"/>
+<path d="{{ basic.shape.basicNasalVowel }}" class="fadedShape"/>
 {% include copyright.html -%}
 </svg>
