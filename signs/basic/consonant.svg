@@ -1,0 +1,22 @@
+---
+layout: compress
+title: Consonant
+styles: ["grid", "gridCont", "text", "teeth", "copyright", "shape"]
+---
+{%- assign basic = site.data.basic -%}
+{%- assign gridX = basic.grid.x.consonant -%}
+{%- assign gridY = basic.grid.y.consonant -%}
+{% include opening.html par='preserveAspectRatio="none"' -%}
+<title>{{ page.title }}</title>
+{% include creator.html -%}
+{% include license.html -%}
+<style type="text/css">
+{%- for st in page.styles %}
+  {{ site.data.style[st] }}
+{%- endfor %}
+</style>
+<path d="M{{ gridX }},{{ gridY }}{{ basic.grid.path }}" class="grid"/>
+{{ basic.teeth.consonant }}
+<path d="{{ basic.shape.consonant }}" class="shape"/>
+{% include copyright.html -%}
+</svg>
