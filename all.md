@@ -66,3 +66,37 @@ title: All signs
 </tr>
 </table>
 </div>
+
+### Basic shapes
+
+<table class="hcenter bottomcap">
+  <caption><cite>{{ site.title }}</cite> inventory: additional <strong>symbols</strong> for phonological features (DIACRITICS in <cite>IPA</cite>)</caption>
+  <thead>
+  <tr>
+    <th>Color</th>
+    <th>Consonant</th>
+    <th>Nasal Consonant</th>
+    <th>Vowel</th>
+    <th>Nasal Vowel</th>
+    <th>Approximant</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>Black</td>
+    <td>{% include figure.html url="signs/suprasegmentals/consonant.svg" title="Consonant" caption=false %}</td>
+    <td>{% include figure.html url="signs/suprasegmentals/consonant.svg" title="Consonant" caption=false %}</td>
+    <td>{% include figure.html url="signs/suprasegmentals/vowel.svg" title="Vowel" caption=false %}</td>
+    <td>{% include figure.html url="signs/suprasegmentals/vowel.svg" title="Vowel" caption=false %}</td>
+    <td>{% include figure.html url="signs/suprasegmentals/vowel.svg" title="Vowel" caption=false %}</td>
+  </tr>
+  <tr>
+    <td>Grey</td>
+    <td>{% include figure.html url="signs/suprasegmentals/faded-consonant.svg" title="Faded Consonant" caption=false %}</td>
+    <td>{% include figure.html url="signs/suprasegmentals/faded-consonant.svg" title="Faded Consonant" caption=false %}</td>
+    <td>{% include figure.html url="signs/suprasegmentals/faded-vowel.svg" title="Faded Vowel" caption=false %}</td>
+    <td>{% include figure.html url="signs/suprasegmentals/faded-vowel.svg" title="Faded Vowel" caption=false %}</td>
+    <td>{% include figure.html url="signs/suprasegmentals/faded-vowel.svg" title="Faded Vowel" caption=false %}</td>
+  </tr>
+</tbody>
+</table>
