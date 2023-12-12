@@ -4,8 +4,8 @@ title: Faded Nasal Vowel
 styles: ["grid", "gridCont", "text", "fadedTeeth", "copyright", "fadedShape"]
 ---
 {%- assign basic = site.data.basic -%}
-{%- assign gridX = basic.grid.x.vowel -%}
-{%- assign gridY = basic.grid.y.vowel -%}
+{%- assign gridX = basic.grid.x.nasalVowel -%}
+{%- assign gridY = basic.grid.y.nasalVowel -%}
 {% include opening.html par='preserveAspectRatio="none"' -%}
 <title>{{ page.title }}</title>
 {% include creator.html -%}
@@ -16,7 +16,7 @@ styles: ["grid", "gridCont", "text", "fadedTeeth", "copyright", "fadedShape"]
 {%- endfor %}
 </style>
 <path d="M{{ gridX }},{{ gridY }}{{ basic.grid.path }}" class="grid"/>
-{{ basic.teeth.fadedVowel }}
+{{ basic.teeth.fadedNasalVowel }}
 <path d="{{ basic.shape.nasalVowel }}" class="fadedShape"/>
 {% include copyright.html -%}
 </svg>
