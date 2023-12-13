@@ -466,16 +466,40 @@
       "lips": 2,
       "tongue": 1
     },
-    "ẽ-◻.svg": {
-      "title": "ẽ-◻",
+    "ɛ̃-◻.svg": {
+      "title": "ɛ̃-◻",
       "class": {
-        "byLips": "close-mid",
+        "byLips": "open-mid",
         "byTongue": "front",
         "byLipsShape": "unrounded",
         "squred": true,
         "nasal": true
       },
-      "lips": 16,
-      "tongue": 5
+      "lips": 17,
+      "tongue": 9
+    },
+  "ĩ-◻.svg": {
+      "title": "ĩ-◻",
+      "class": {
+        "byLips": "close",
+        "byTongue": "front",
+        "byLipsShape": "unrounded",
+        "squred": true,
+        "nasal": true
+      },
+      "lips": 14,
+      "tongue": 0
+    },
+  "Ĩ-◻.svg": {
+      "title": "Ĩ-◻",
+      "class": {
+        "byLips": "close",
+        "byTongue": "front",
+        "byLipsShape": "unrounded",
+        "squred": true,
+        "nasal": true
+      },
+      "lips": 15,
+      "tongue": 1
     }
   }
