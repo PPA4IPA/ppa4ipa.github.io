@@ -169,6 +169,7 @@ Sound recordings on the [<cite>IPA</cite> website][1]
   <td width="20%">{% include figure.html url="signs/vowels/œ̃.svg" title="œ̃" %}</td>
   <td width="20%">{% include figure.html url="signs/vowels/ɔ̃.svg" title="ɔ̃" %}</td>
   <td width="20%">{% include figure.html url="signs/vowels/ɑ̃.svg" title="ɑ̃" %}</td>
+  <td width="20%">{% include figure.html url="signs/vowels/ẽ-◻.svg" title="ẽ-◻" %}</td>
 </tr>
 </table>
 
