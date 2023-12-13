@@ -170,7 +170,7 @@ Sound recordings on the [<cite>IPA</cite> website][1]
   <td width="12.5%">{% include figure.html url="signs/vowels/ɔ̃.svg" title="ɔ̃" %}</td>
   <td width="12.5%">{% include figure.html url="signs/vowels/ɑ̃.svg" title="ɑ̃" %}</td>
   <td width="12.5%">{% include figure.html url="signs/vowels/ɛ̃-◻.svg" title="ɛ̃-◻" %}</td>
-  <td width="12.5%">{% include figure.html url="signs/vowels/ĩ-◻.svg"" title="ĩ-◻" %}</td>
+  <td width="12.5%">{% include figure.html url="signs/vowels/ĩ-◻.svg" title="ĩ-◻" %}</td>
   <td width="12.5%">{% include figure.html url="signs/vowels/Ĩ-◻.svg" title="Ĩ-◻" %}</td>
 </tr>
 </table>
