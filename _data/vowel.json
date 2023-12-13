@@ -465,5 +465,17 @@
       },
       "lips": 2,
       "tongue": 1
+    },
+    "ẽ-◻.svg": {
+      "title": "ẽ-◻",
+      "class": {
+        "byLips": "close-mid",
+        "byTongue": "front",
+        "byLipsShape": "unrounded",
+        "squred": true,
+        "nasal": true
+      },
+      "lips": 16,
+      "tongue": 5
     }
   }
