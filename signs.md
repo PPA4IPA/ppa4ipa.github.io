@@ -164,12 +164,12 @@ Sound recordings on the [<cite>IPA</cite> website][1]
 <table class="tinypadding hcenter bottomcap" width="1000">
 <caption><cite>{{ site.title }}</cite> <strong>characters</strong> for NASAL VOWELS</caption>
 <tr>
-  <td width="20%">{% include figure.html url="signs/vowels/Ĩ.svg" title="Ĩ" %}</td>
-  <td width="20%">{% include figure.html url="signs/vowels/ɛ̃.svg" title="ɛ̃" %}</td>
-  <td width="20%">{% include figure.html url="signs/vowels/œ̃.svg" title="œ̃" %}</td>
-  <td width="20%">{% include figure.html url="signs/vowels/ɔ̃.svg" title="ɔ̃" %}</td>
-  <td width="20%">{% include figure.html url="signs/vowels/ɑ̃.svg" title="ɑ̃" %}</td>
-  <td width="20%">{% include figure.html url="signs/vowels/ẽ-◻.svg" title="ẽ-◻" %}</td>
+  <td width="16%">{% include figure.html url="signs/vowels/Ĩ.svg" title="Ĩ" %}</td>
+  <td width="16%">{% include figure.html url="signs/vowels/ɛ̃.svg" title="ɛ̃" %}</td>
+  <td width="16%">{% include figure.html url="signs/vowels/œ̃.svg" title="œ̃" %}</td>
+  <td width="16%">{% include figure.html url="signs/vowels/ɔ̃.svg" title="ɔ̃" %}</td>
+  <td width="16%">{% include figure.html url="signs/vowels/ɑ̃.svg" title="ɑ̃" %}</td>
+  <td width="16%">{% include figure.html url="signs/vowels/ẽ-◻.svg" title="ẽ-◻" %}</td>
 </tr>
 </table>
 
