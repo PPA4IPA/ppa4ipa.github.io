@@ -460,6 +460,7 @@
         "byLips": "close",
         "byTongue": "front",
         "byLipsShape": "unrounded",
+        "squred": false,
         "nasal": true
       },
       "lips": 14,
