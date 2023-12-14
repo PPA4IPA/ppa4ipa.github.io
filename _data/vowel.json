@@ -454,6 +454,17 @@
       "lips": 9,
       "tongue": 13
     },
+    "ĩ.svg": {
+      "title": "ĩ",
+      "class": {
+        "byLips": "close",
+        "byTongue": "front",
+        "byLipsShape": "unrounded",
+        "nasal": true
+      },
+      "lips": 14,
+      "tongue": 0
+    },
     "Ĩ.svg": {
       "title": "Ĩ",
       "class": {
