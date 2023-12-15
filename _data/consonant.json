@@ -707,7 +707,7 @@
     "title": "ɥ",
     "class": { "main": "labial approximant", "byTongue": "bilabial" },
     "mode": "nothing.svg",
-    "mode_transform": "palatal",
+    "mode_transform": "bilabial",
     "tongue": 16,
     "lips": 6,
     "voiced": true,
