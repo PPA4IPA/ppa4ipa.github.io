@@ -158,7 +158,7 @@ PDF file with the first version of <cite>{{ site.longtitle }}</cite> is [here](/
   {% include figure.html url="signs/vowels/ɒ.svg" title="ɒ" %} 
   </td>
 </tr><tr>
-  <th colspan="4">Rounded <img src="/img/circle.svg" width="18" height="18"/> / Unrounded <img src="/img/rect.svg" width="36" height="18"/> or <img src="/img/oval.svg" width="36" height="18"/> (the oval is a more realistic representation used in animations)</th>
+  <th colspan="4">Rounded <img src="/img/circle.svg" width="18" height="18"/> / Unrounded <img src="/img/rect.svg" width="36" height="18"/> or <img src="/img/oval.svg" width="36" height="18"/> (the oval is a more realistic representation used in animations)</th></tr>
 </table>
 
 Sound recordings on the [<cite>IPA</cite> website][1]
