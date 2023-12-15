@@ -45,7 +45,7 @@ styles: ["grid", "gridCont", "activeFilled", "text", "teeth", "copyright", "shap
 <path d="{{ shape }}" class="shape"/>
 <path d="{{ site.data.tongue[consonant.tongue] }}" class="activeFilled"/>
 {%- if consonant.lips %}
-<{%- include lips.html %} class="lips"/>
+<{%- include consonant_lips.html %} class="lips"/>
 {%- endif %}
 {%- if consonant.voiced %}
 {{ site.data.diacritic["voiced.svg"].sign }}
