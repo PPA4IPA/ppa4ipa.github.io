@@ -1,6 +1,6 @@
 ---
 layout: compress
-styles: ["grid", "gridCont", "activeFilled", "text", "teeth", "copyright", "shape", "mode", "in", "crossLine"]
+styles: ["grid", "gridCont", "activeFilled", "text", "teeth", "copyright", "shape", "mode", "in", "crossLine", "lips"]
 ---
 {%- assign basic = site.data.basic -%}
 {%- assign consonant = site.data.consonant[page.name] -%}
@@ -44,6 +44,9 @@ styles: ["grid", "gridCont", "activeFilled", "text", "teeth", "copyright", "shap
 {{ alveola }}
 <path d="{{ shape }}" class="shape"/>
 <path d="{{ site.data.tongue[consonant.tongue] }}" class="activeFilled"/>
+{%- if consonant.lips %}
+<{%- include lips.html %} class="lips"/>
+{%- endif %}
 {%- if consonant.voiced %}
 {{ site.data.diacritic["voiced.svg"].sign }}
 {%- else %}
