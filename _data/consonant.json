@@ -708,7 +708,7 @@
     "class": { "main": "labial approximant", "byTongue": "bilabial" },
     "mode": "nothing.svg",
     "mode_transform": "palatal",
-    "tongue": 18,
+    "tongue": 16,
     "lips": 6,
     "voiced": true,
     "nasal": false,
