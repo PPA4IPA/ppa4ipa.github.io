@@ -15,5 +15,6 @@
   "affricate_postalveolar": "translate(62.3 23.58) scale(0.19)",
   "affricate_retroflex": "translate(87.3 23.6) scale(0.19)",
   "affricate_palatal": "translate(108.7 20.3) rotate(15) scale(0.19)",
-  "affricate_velar": "translate(142.1 16.8) rotate(35) scale(0.19)"
+  "affricate_velar": "translate(142.1 16.8) rotate(35) scale(0.19)",
+  "bilabial_approximant": "translate(19 59.8) scale(0.14)"
 }
