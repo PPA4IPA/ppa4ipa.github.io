@@ -103,11 +103,14 @@ PDF file with the first version of <cite>{{ site.longtitle }}</cite> is [here](/
   {% include figure.html url="signs/vowels/I.svg" title="I" %}
   {% include figure.html url="signs/vowels/I-◻.svg" title="I-◻" %}<br>
   {% include figure.html url="signs/vowels/Y.svg" title="Y" %}<br>
-  </td><td>{% include figure.html url="signs/vowels/ɨ.svg" title="ɨ" %}<br>
+  </td><td>{% include figure.html url="signs/vowels/ɨ.svg" title="ɨ" %}
+  {% include figure.html url="signs/vowels/ɨ-◻.svg" title="ɨ-◻" %}<br>
   {% include figure.html url="signs/vowels/ʉ.svg" title="ʉ" %}<br>
   {% include figure.html url="signs/vowels/ʊ.svg" title="ʊ" %}
+  {% include figure.html url="signs/vowels/ʊ-◻.svg" title="ʊ-◻" %}
   </td>
-  <td>{% include figure.html url="signs/vowels/ɯ.svg" title="ɯ" %}<br>
+  <td>{% include figure.html url="signs/vowels/ɯ.svg" title="ɯ" %}
+  {% include figure.html url="signs/vowels/ɯ-◻.svg" title="ɯ-◻" %}<br>
   {% include figure.html url="signs/vowels/u.svg" title="u" %} 
   </td>
 </tr><tr>
@@ -116,11 +119,14 @@ PDF file with the first version of <cite>{{ site.longtitle }}</cite> is [here](/
   {% include figure.html url="signs/vowels/e-◻.svg" title="e-◻" %}<br>
   {% include figure.html url="signs/vowels/ø.svg" title="ø" %}
   </td>
-  <td>{% include figure.html url="signs/vowels/ɘ.svg" title="ɘ" %}<br>
+  <td>{% include figure.html url="signs/vowels/ɘ.svg" title="ɘ" %}
+  {% include figure.html url="signs/vowels/ɘ-◻.svg" title="ɘ-◻" %}<br>
   {% include figure.html url="signs/vowels/ɵ.svg" title="ɵ" %}<br>
-  {% include figure.html url="signs/vowels/ə.svg" title="ə" %}  
+  {% include figure.html url="signs/vowels/ə.svg" title="ə" %}
+  {% include figure.html url="signs/vowels/ə-◻.svg" title="ə-◻" %}
   </td>
-  <td>{% include figure.html url="signs/vowels/ɤ.svg" title="ɤ" %}<br>
+  <td>{% include figure.html url="signs/vowels/ɤ-◻.svg" title="ɤ-◻" %}
+  {% include figure.html url="signs/vowels/ɤ.svg" title="ɤ" %}<br>
   {% include figure.html url="signs/vowels/o.svg" title="o" %}
   </td>
 </tr><tr>
@@ -131,11 +137,14 @@ PDF file with the first version of <cite>{{ site.longtitle }}</cite> is [here](/
   {% include figure.html url="signs/vowels/æ.svg" title="æ" %}
   {% include figure.html url="signs/vowels/æ-◻.svg" title="æ-◻" %}<br>
   </td>
-  <td>{% include figure.html url="signs/vowels/ɜ.svg" title="ɜ" %}<br>
+  <td>{% include figure.html url="signs/vowels/ɜ.svg" title="ɜ" %}
+  {% include figure.html url="signs/vowels/ɜ-◻.svg" title="ɜ-◻" %}<br>
   {% include figure.html url="signs/vowels/ɞ.svg" title="ɞ" %}<br>
-  {% include figure.html url="signs/vowels/ɐ.svg" title="ɐ" %} 
+  {% include figure.html url="signs/vowels/ɐ.svg" title="ɐ" %}
+  {% include figure.html url="signs/vowels/ɐ-◻.svg" title="ɐ-◻" %}
   </td>
-  <td>{% include figure.html url="signs/vowels/ʌ.svg" title="ʌ" %}<br>
+  <td>{% include figure.html url="signs/vowels/ʌ.svg" title="ʌ" %}
+  {% include figure.html url="signs/vowels/ʌ-◻.svg" title="ʌ-◻" %}<br>
   {% include figure.html url="signs/vowels/ɔ.svg" title="ɔ" %}
   </td>
 </tr><tr>
