@@ -5,7 +5,7 @@ rect x="{{ lips.x }}" y="{{ lips.y }}" rx="{{ lips.rx }}" ry="{{ lips.ry }}" wid
 {%- else -%}
 ellipse cx="{{ lips.cx }}" cy="{{ lips.cy }}" rx="{{ lips.rx }}" ry="{{ lips.ry }}"
 {%- endif -%}
-{%- else -%}
+{%-  elsif consonant.lips -%}
 {%- assign lips = site.data.lips[consonant.lips] -%}
 ellipse cx="{{ lips.cx }}" cy="{{ lips.cy }}" rx="{{ lips.rx }}" ry="{{ lips.ry }}"
 {%- endif -%}
