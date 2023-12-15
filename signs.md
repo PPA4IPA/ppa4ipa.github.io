@@ -125,8 +125,8 @@ PDF file with the first version of <cite>{{ site.longtitle }}</cite> is [here](/
   {% include figure.html url="signs/vowels/ə.svg" title="ə" %}
   {% include figure.html url="signs/vowels/ə-◻.svg" title="ə-◻" %}
   </td>
-  <td>{% include figure.html url="signs/vowels/ɤ-◻.svg" title="ɤ-◻" %}
-  {% include figure.html url="signs/vowels/ɤ.svg" title="ɤ" %}<br>
+  <td>{% include figure.html url="signs/vowels/ɤ.svg" title="ɤ" %}
+  {% include figure.html url="signs/vowels/ɤ-◻.svg" title="ɤ-◻" %}<br>
   {% include figure.html url="signs/vowels/o.svg" title="o" %}
   </td>
 </tr><tr>
