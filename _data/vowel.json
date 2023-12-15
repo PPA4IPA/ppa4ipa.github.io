@@ -318,10 +318,10 @@
       "class": {
         "byLips": "open-mid",
         "byTongue": "central",
-        "byLipsShape": "halfrounded",
+        "byLipsShape": "unrounded",
         "squred": true
       },
-      "lips": 22,
+      "lips": 18,
       "tongue": 12
     },
   "ʌ.svg": {
