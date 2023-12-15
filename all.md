@@ -53,7 +53,7 @@ title: All signs
 
 <tr>
 <td>7</td><td>{% include figure.html url="signs/mods/figures/nothing.svg" title="Approximant" %}</td>
-<td></td><td>{% include figure.html url="signs/consonants/ʋ.svg" title="ʋ" %}</td><td></td><td>{% include figure.html url="signs/consonants/ɹ.svg" title="ɹ" %}</td><td></td><td>{% include figure.html url="signs/consonants/ɻ.svg" title="ɻ" %}</td><td>{% include figure.html url="signs/consonants/j.svg" title="j" %}</td><td>{% include figure.html url="signs/consonants/ɰ.svg" title="ɰ" %}</td><td></td><td></td><td></td>
+<td>{% include figure.html url="signs/consonants/ɥ.svg" title="ɥ" %}{% include figure.html url="signs/consonants/w.svg" title="w" %}</td><td>{% include figure.html url="signs/consonants/ʋ.svg" title="ʋ" %}</td><td></td><td>{% include figure.html url="signs/consonants/ɹ.svg" title="ɹ" %}</td><td></td><td>{% include figure.html url="signs/consonants/ɻ.svg" title="ɻ" %}</td><td>{% include figure.html url="signs/consonants/j.svg" title="j" %}</td><td>{% include figure.html url="signs/consonants/ɰ.svg" title="ɰ" %}</td><td></td><td></td><td></td>
 </tr>
 
 <tr>
