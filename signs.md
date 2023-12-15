@@ -90,6 +90,27 @@ PDF file with the first version of <cite>{{ site.longtitle }}</cite> is [here](/
 </table>
 </div>
 
+<h3 id="{{ site.title }}-semivowels"><cite>{{ site.title }}</cite> characters for <strong>SEMIVOWELS</strong> of the <cite>IPA</cite></h3>
+
+
+<table class="hcenter bottomcap">
+<caption><cite>{{ site.title }}</cite> <strong>characters</strong> for SEMIVOWELS of the <cite>IPA</cite> (the corresponding <cite>IPA</cite> signs are located under the characters)</caption>
+<tr>
+  <th width="100" rowspan="3">Semivowels or semiconsonants or approximants<br>{% include figure.html url="signs/mods/figures/nothing.svg" title="Approximant" %}</th><th width="250" colspan="2">Front</th><th width="250" colspan="2">Central</th><th width="250" colspan="2">Back</th>
+</tr>
+<tr>
+  <td>Unrounded</td>
+  <td>Rounded</td>
+  <td>Unrounded</td>
+  <td>Rounded</td>
+  <td>Unrounded</td>
+  <td>Rounded</td>
+</tr>
+<tr>
+  <td>{% include figure.html url="signs/consonants/j.svg" title="j" %}</td><td>{% include figure.html url="signs/consonants/ɥ.svg" title="ɥ" %}</td><td></td><td></td><td>{% include figure.html url="signs/consonants/ɰ.svg" title="ɰ" %}</td><td>{% include figure.html url="signs/consonants/w.svg" title="w" %}</td>
+</tr>
+</table>
+
 <h3 id="{{ site.title }}-vowels"><cite>{{ site.title }}</cite> characters for <strong>VOWELS</strong> of the <cite>IPA</cite></h3>
 
 <table class="hcenter bottomcap">
