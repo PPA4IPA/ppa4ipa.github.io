@@ -69,7 +69,7 @@ title: All signs
 
 <h3 id="{{ site.title }}-nasal-vowels"><cite>{{ site.title }}</cite> characters for <strong>NASAL VOWELS</strong></h3>
 
-<table class="tinypadding hcenter bottomcap" width="1000">
+<table class="tinypadding hcenter bottomcap" width="1200">
 <caption><cite>{{ site.title }}</cite> <strong>characters</strong> for NASAL VOWELS</caption>
 <tr>
   <td width="12.5%">{% include figure.html url="signs/vowels/ĩ.svg" title="ĩ" %}{% include figure.html url="signs/vowels/ĩ-◻.svg" title="ĩ-◻" %}</td>
