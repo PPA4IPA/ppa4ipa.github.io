@@ -513,5 +513,23 @@
       },
       "lips": 15,
       "tongue": 1
+    },
+  "ã-◻.svg": {
+      "title": "ã-◻",
+      "class": {
+        "byLips": "open",
+        "byTongue": "front",
+        "byLipsShape": "unrounded",
+        "squred": true,
+        "nasal": true
+      },
+      "lips": 19,
+      "tongue": 14
+    },
+  "ũ.svg": {
+      "title": "ũ",
+      "class": { "byLips": "close", "byTongue": "back", "byLipsShape": "rounded", "nasal": true },
+      "lips": 1,
+      "tongue": 4
     }
   }
