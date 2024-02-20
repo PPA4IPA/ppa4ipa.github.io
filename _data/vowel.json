@@ -529,7 +529,7 @@
   "ũ.svg": {
       "title": "ũ",
       "class": { "byLips": "close", "byTongue": "back", "byLipsShape": "rounded", "nasal": true },
-      "lips": 1,
+      "lips": 25,
       "tongue": 4
     }
   }
