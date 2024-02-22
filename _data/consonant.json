@@ -904,5 +904,49 @@
     "nasal": false,
     "approximant": false,
     "lateral": false
+  },
+  "tp.svg": {
+    "title": "t palatilized",
+    "class": { "main": "plosive", "byTongue": "dental palatilized" },
+    "mode": "plosive.svg",
+    "mode_transform": "dental",
+    "tongue": 22,
+    "voiced": false,
+    "nasal": false,
+    "approximant": false,
+    "lateral": false
+  },
+  "dp.svg": {
+    "title": "d palatilized",
+    "class": { "main": "plosive", "byTongue": "dental palatilized" },
+    "mode": "plosive.svg",
+    "mode_transform": "dental",
+    "tongue": 22,
+    "voiced": true,
+    "nasal": false,
+    "approximant": false,
+    "lateral": false
+  },
+  "kp.svg": {
+    "title": "k palatilized",
+    "class": { "main": "plosive", "byTongue": "velar palatilized" },
+    "mode": "plosive.svg",
+    "mode_transform": "velar",
+    "tongue": 22,
+    "voiced": false,
+    "nasal": false,
+    "approximant": false,
+    "lateral": false
+  },
+  "gp.svg": {
+    "title": "g palatilized",
+    "class": { "main": "plosive", "byTongue": "velar palatilized" },
+    "mode": "plosive.svg",
+    "mode_transform": "velar",
+    "tongue": 22,
+    "voiced": true,
+    "nasal": false,
+    "approximant": false,
+    "lateral": false
   }
 }
