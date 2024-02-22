@@ -233,7 +233,7 @@ Under development.
     <td>3</td>
     <td>{% include figure.html url="signs/diacritics/breathy-voiced.svg" title="Breathy voiced" caption=false %}</td>
     <td>Breathy voiced</td>
-    <td>Spiraling shape = breath &amp; air</td>
+    <td> {% include figure.html url="img/spiral.svg" title="Spiral" width="20" height="20" %} Spiraling shape = breath &amp; air</td>
   </tr>
   <tr>
     <td>4</td>
