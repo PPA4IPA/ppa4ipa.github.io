@@ -436,11 +436,23 @@
       "class": {
         "byLips": "open",
         "byTongue": "back",
-        "byLipsShape": "unrounded",
+        "byLipsShape": "rounded",
         "squred": false,
         "nasal": true
       },
       "lips": 12,
+      "tongue": 15
+    },
+  "ɑ̃-◻.svg": {
+      "title": "ɑ̃-◻",
+      "class": {
+        "byLips": "open",
+        "byTongue": "back",
+        "byLipsShape": "unrounded",
+        "squred": true,
+        "nasal": true
+      },
+      "lips": 19,
       "tongue": 15
     },
   "ɔ̃.svg": {
@@ -513,6 +525,17 @@
       },
       "lips": 15,
       "tongue": 1
+    },
+  "ã.svg": {
+      "title": "ã",
+      "class": {
+        "byLips": "open",
+        "byTongue": "front",
+        "byLipsShape": "rounded",
+        "nasal": true
+      },
+      "lips": 12,
+      "tongue": 14
     },
   "ã-◻.svg": {
       "title": "ã-◻",
