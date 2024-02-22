@@ -83,6 +83,18 @@ title: All signs
 </tr>
 </table>
 
+<h3 id="{{ site.title }}-palatilized-consonants"><cite>{{ site.title }}</cite> characters for <strong>palatilized consonants</strong></h3>
+
+<table class="tinypadding hcenter bottomcap" width="1000">
+<caption><cite>{{ site.title }}</cite> <strong>characters</strong> for palatilized consonants</caption>
+<tr>
+  <td width="25%">{% include figure.html url="signs/consonants/tp.svg" title="t palatilized" %}</td>
+  <td width="25%">{% include figure.html url="signs/consonants/dp.svg" title="d palatilized" %}</td>
+  <td width="25%">{% include figure.html url="signs/consonants/kp.svg" title="k palatilized" %}</td>
+  <td width="25%">{% include figure.html url="signs/consonants/gp.svg" title="g palatilized" %}</td>
+</tr>
+</table>
+
 ### Basic shapes
 
 <table class="hcenter bottomcap">
