@@ -189,17 +189,19 @@ Sound recordings on the [<cite>IPA</cite> website][1]
 
 <h3 id="{{ site.title }}-nasal-vowels"><cite>{{ site.title }}</cite> characters for <strong>NASAL VOWELS</strong></h3>
 
-<table class="tinypadding hcenter bottomcap" width="1000">
+<table class="tinypadding hcenter bottomcap" width="1200">
 <caption><cite>{{ site.title }}</cite> <strong>characters</strong> for NASAL VOWELS</caption>
 <tr>
-  <td width="20%">{% include figure.html url="signs/vowels/ĩ.svg" title="ĩ" %}{% include figure.html url="signs/vowels/ĩ-◻.svg" title="ĩ-◻" %}</td>
-  <td width="20%">{% include figure.html url="signs/vowels/ɛ̃.svg" title="ɛ̃" %}{% include figure.html url="signs/vowels/ɛ̃-◻.svg" title="ɛ̃-◻" %}</td>
-  <td width="20%">{% include figure.html url="signs/vowels/œ̃.svg" title="œ̃" %}</td>
-  <td width="20%">{% include figure.html url="signs/vowels/ɔ̃.svg" title="ɔ̃" %}</td>
-  <td width="20%">{% include figure.html url="signs/vowels/ɑ̃.svg" title="ɑ̃" %}</td>
+  <td width="12.5%">{% include figure.html url="signs/vowels/ĩ-◻.svg" title="ĩ-◻" %}{% include figure.html url="signs/vowels/ĩ.svg" title="ĩ" %}</td>
+  <td width="12.5%">{% include figure.html url="signs/vowels/Ĩ-◻.svg" title="Ĩ-◻" %}{% include figure.html url="signs/vowels/Ĩ.svg" title="Ĩ" %}</td>
+  <td width="12.5%">{% include figure.html url="signs/vowels/ɛ̃-◻.svg" title="ɛ̃-◻" %}{% include figure.html url="signs/vowels/ɛ̃.svg" title="ɛ̃" %}</td>
+  <td width="12.5%">{% include figure.html url="signs/vowels/œ̃.svg" title="œ̃" %}</td>
+  <td width="12.5%">{% include figure.html url="signs/vowels/ã-◻.svg" title="ã-◻" %}{% include figure.html url="signs/vowels/ã.svg" title="ã" %}</td>
+  <td width="12.5%">{% include figure.html url="signs/vowels/ɑ̃-◻.svg" title="ɑ̃-◻" %}{% include figure.html url="signs/vowels/ɑ̃.svg" title="ɑ̃" %}</td>
+  <td width="12.5%">{% include figure.html url="signs/vowels/ɔ̃.svg" title="ɔ̃" %}</td>
+  <td width="12.5%">{% include figure.html url="signs/vowels/ũ.svg" title="ũ" %}</td>
 </tr>
 </table>
-
 <h2 id="{{ site.title }}-inventory"> <cite>{{ site.title }}</cite> Inventory</h2>
 
 Under development.
